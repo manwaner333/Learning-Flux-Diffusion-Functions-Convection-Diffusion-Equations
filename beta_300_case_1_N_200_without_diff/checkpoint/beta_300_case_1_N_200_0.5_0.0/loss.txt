@@ -1,0 +1,125 @@
+C:\Users\janga\miniconda3\envs\gpu\python.exe C:/Users/janga/Cold_Qing/ConsLawNet1/learn_multiplication_function_update_numerical_scheme_with_param_K_u/Experiments_Paper_3/beta_300_case_1_N_200_without_diff/learn_function_1d.py
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\.libs\libopenblas.GK7GX5KEQ4F6UYO3P26ULGBQYHGQO7J4.gfortran-win_amd64.dll
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
+  warnings.warn("loaded more than 1 DLL from .libs:"
+poly0.layer0.weight : Parameter containing:
+tensor([[-0.6427],
+        [ 0.0736]], dtype=torch.float64, requires_grad=True)
+poly0.layer0.bias : Parameter containing:
+tensor([-0.3398,  0.2239], dtype=torch.float64, requires_grad=True)
+poly0.layer1.weight : Parameter containing:
+tensor([[-0.5352, -0.9055],
+        [ 0.2222,  0.8739]], dtype=torch.float64, requires_grad=True)
+poly0.layer1.bias : Parameter containing:
+tensor([0.5639, 0.4649], dtype=torch.float64, requires_grad=True)
+poly0.layer2.weight : Parameter containing:
+tensor([[ 0.1151,  0.7583, -0.7743],
+        [-0.4747, -0.0125, -0.4311]], dtype=torch.float64, requires_grad=True)
+poly0.layer2.bias : Parameter containing:
+tensor([ 0.3112, -0.7875], dtype=torch.float64, requires_grad=True)
+poly0.molecular.weight : Parameter containing:
+tensor([[ 0.1152,  0.3257, -1.3313,  0.1554]], dtype=torch.float64,
+       requires_grad=True)
+poly0.molecular.bias : Parameter containing:
+tensor([-0.6178], dtype=torch.float64, requires_grad=True)
+poly0.denominator.weight : Parameter containing:
+tensor([[-0.3005,  0.1640, -0.5509, -0.0243]], dtype=torch.float64,
+       requires_grad=True)
+poly0.denominator.bias : Parameter containing:
+tensor([0.1729], dtype=torch.float64, requires_grad=True)
+该层的结构：[2, 1]
+该层参数和：2
+该层的结构：[2]
+该层参数和：2
+该层的结构：[2, 2]
+该层参数和：4
+该层的结构：[2]
+该层参数和：2
+该层的结构：[2, 3]
+该层参数和：6
+该层的结构：[2]
+该层参数和：2
+该层的结构：[1, 4]
+该层参数和：4
+该层的结构：[1]
+该层参数和：1
+该层的结构：[1, 4]
+该层参数和：4
+该层的结构：[1]
+该层参数和：1
+总参数数量和：28
+(-0.9863349711510577)*1+(0.1866963691112218)*u+(0.031228880090687028)*u**2+(-0.02270058099002276)*u**3+(0.003046760183824258)*u**4+(-0.00011279924276812009)*u**5+(2.151498528051897e-05)*u**6+(-3.492463685315029e-06)*u**7
+(-0.2681838081723696)*u+(0.02277973038673595)*1+(0.013503725748240068)*u**2+(-0.010874508527863511)*u**3+(0.0008684856095411435)*u**4+(1.7605174559219837e-05)*u**5+(-3.3579575731835787e-06)*u**6
+obs_time_step:
+[0, 11, 23, 34, 45, 57, 68, 79, 91, 102]
+dt
+0.169492
+pre_time_step:
+[0, 1, 1, 2, 2, 3, 4, 4, 5, 5]
+max_f_prime:
+tensor([0.1000], dtype=torch.float64)
+tensor([-501.5573, -525.9220, -552.1074, -580.2993, -610.7083, -643.5729,
+        -679.1649, -717.7947, -759.8180, -805.6444], dtype=torch.float64)
+tensor([-490.0712, -513.5952, -538.8556, -566.0278, -595.3096, -626.9252,
+        -661.1293, -698.2126, -738.5074, -782.3956], dtype=torch.float64,
+       grad_fn=<SliceBackward0>)
+loss0 55.283942, data loss0 0.000000, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 345401.093750, penalty 55.283942,
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           28     M =          500
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  5.52839D+01    |proj g|=  4.56000D+02
+ This problem is unconstrained.
+max_f_prime 0.388927, dt 0.090909, time_steps 22.000000,
+(-0.7834943801926841)*1+(0.20427547167649887)*u+(0.031597018560695904)*u**2+(-0.0016730240566099454)*u**3+(6.93555074448256e-05)*u**4
+(0.9543979032869265)*1+(0.203324761460761)*u+(0.022707505479820006)*u**2+(0.0007935606630275787)*u**3+(-4.692056651732835e-05)*u**4
+C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param_K_u\Experiments_Paper_3\beta_300_case_1_N_200_without_diff\aTEAM\optim\PGManager.py:195: UserWarning: volatile was removed (Variable.volatile is always False)
+  if p.grad.volatile:
+obs_time_step:
+[0, 11, 23, 34, 45, 57, 68, 79, 91, 102]
+dt
+0.09090909090909091
+pre_time_step:
+[0, 1, 2, 3, 4, 6, 7, 8, 9, 10]
+max_f_prime:
+tensor([0.3889], dtype=torch.float64)
+tensor([0.3889, 0.3888, 0.3887, 0.3886, 0.3884, 0.3883, 0.3882, 0.3881, 0.3880,
+        0.3878], dtype=torch.float64)
+tensor([0.3890, 0.3889, 0.3887, 0.3886, 0.3885, 0.3884, 0.3883, 0.3881, 0.3880,
+        0.3879], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.041548, data loss0 0.041548, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 0.388987, penalty 0.000000,
+
+At iterate    1    f=  4.15482D-02    |proj g|=  9.81718D-03
+max_f_prime 0.388985, dt 0.090909, time_steps 22.000000,
+(-0.783506030274202)*1+(0.2043096789723488)*u+(0.03160349069328898)*u**2+(-0.0016700123041770523)*u**3+(6.926448201326319e-05)*u**4
+(0.9543858384088437)*1+(0.2033399288269013)*u+(0.022710702230343327)*u**2+(0.0007950482944164907)*u**3+(-4.6864674069984804e-05)*u**4
+obs_time_step:
+[0, 11, 23, 34, 45, 57, 68, 79, 91, 102]
+dt
+0.09090909090909091
+pre_time_step:
+[0, 1, 2, 3, 4, 6, 7, 8, 9, 10]
+max_f_prime:
+tensor([0.3890], dtype=torch.float64)
+tensor([0.3890, 0.3889, 0.3887, 0.3886, 0.3885, 0.3884, 0.3883, 0.3881, 0.3880,
+        0.3879], dtype=torch.float64)
+tensor([0.3890, 0.3889, 0.3888, 0.3887, 0.3886, 0.3884, 0.3883, 0.3882, 0.3881,
+        0.3880], dtype=torch.float64, grad_fn=<SliceBackward0>)
+loss0 0.041547, data loss0 0.041547, max_f_prime_loss0 0.000000, stable loss 0.000000, sparse loss 0.000000, max_f_prime 0.389046, penalty 0.000000,
+max_f_prime 0.389220, dt 0.090909, time_steps 22.000000,
+(-0.7835526302157724)*1+(0.20444651615926948)*u+(0.03162938472646741)*u**2+(-0.0016579627104424638)*u**3+(6.890095346346093e-05)*u**4
+(0.9543375788692162)*1+(0.20340060164040685)*u+(0.022723491310200412)*u**2+(0.0008009997353268869)*u**3+(-4.664100605353086e-05)*u**4
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source
+libifcoremd.dll    00007FFA0E3F3B58  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFAB17125E7  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFAB33526BD  Unknown               Unknown  Unknown
+ntdll.dll          00007FFAB41EA9F8  Unknown               Unknown  Unknown
+
+Process finished with exit code 0

@@ -1,0 +1,2586 @@
+C:\Users\janga\miniconda3\envs\gpu\python.exe C:/Users/janga/Cold_Qing/ConsLawNet1/learn_multiplication_function_update_numerical_scheme_with_param_K_u/Experiments_Paper_3/beta_300_case_1_N_200_diehl_f_a_abs_0.5_n_10/learn_function_1d.py
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\.libs\libopenblas.GK7GX5KEQ4F6UYO3P26ULGBQYHGQO7J4.gfortran-win_amd64.dll
+C:\Users\janga\miniconda3\envs\gpu\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
+  warnings.warn("loaded more than 1 DLL from .libs:"
+poly0.molecular_1.weight : Parameter containing:
+tensor([[ 0.0832,  0.1679, -0.1653, -0.1590, -0.1906,  0.0743,  0.0817,  0.2843,
+          0.0299, -0.1342, -0.0428]], dtype=torch.float64, requires_grad=True)
+diff0.molecular_2.weight : Parameter containing:
+tensor([[-0.0864, -0.1416, -0.0213, -0.2485, -0.0952, -0.1372, -0.3010,  0.0510,
+          0.3608, -0.0900, -0.0966]], dtype=torch.float64, requires_grad=True)
+该层的结构：[1, 11]
+该层参数和：11
+该层的结构：[1, 11]
+该层参数和：11
+总参数数量和：22
+max_f_prime 3.332070, amax0.162549,
+max_f_prime 3.332070, dt 0.003810, time_steps 525.000000, amax0.162549, M3.332070,
+Parameter containing:
+tensor([[ 0.0832,  0.1679, -0.1653, -0.1590, -0.1906,  0.0743,  0.0817,  0.2843,
+          0.0299, -0.1342, -0.0428]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0864, -0.1416, -0.0213, -0.2485, -0.0952, -0.1372, -0.3010,  0.0510,
+          0.3608, -0.0900, -0.0966]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0038095238095238095
+pre_time_step:
+[0, 26, 52, 79, 105, 131, 158, 184, 210, 236]
+mormal
+ loss0 0.021075, max_f_prime 3.332070, amin 0.000066, amax 0.180425, a_loss 0.000000
+ This problem is unconstrained.
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           22     M =          500
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.10746D-02    |proj g|=  1.71362D-02
+max_f_prime 8.335384, amax0.176665,
+max_f_prime 8.335384, dt 0.002433, time_steps 822.000000, amax0.176665, M8.335384,
+Parameter containing:
+tensor([[-0.5498,  0.2838, -0.4671, -0.3885, -0.3209,  0.0738,  0.1768,  0.4196,
+          0.3317,  0.3640,  0.1061]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1016, -0.1869, -0.1196, -0.3601, -0.1835, -0.1880, -0.3332,  0.0540,
+          0.3690, -0.0696, -0.0865]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0024330900243309003
+pre_time_step:
+[0, 41, 82, 123, 164, 206, 247, 288, 329, 370]
+mormal
+ loss0 0.008633, max_f_prime 8.335384, amin 0.001907, amax 0.184481, a_loss 0.000000
+C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param_K_u\Experiments_Paper_3\beta_300_case_1_N_200_diehl_f_a_abs_0.5_n_10\aTEAM\optim\PGManager.py:195: UserWarning: volatile was removed (Variable.volatile is always False)
+  if p.grad.volatile:
+
+At iterate    1    f=  8.63257D-03    |proj g|=  8.44642D-03
+max_f_prime 9.677136, amax0.174524,
+max_f_prime 9.677136, dt 0.002250, time_steps 889.000000, amax0.174524, M9.677136,
+Parameter containing:
+tensor([[-0.8334,  0.1343, -0.5730, -0.3460, -0.1006,  0.0949,  0.2185,  0.5802,
+          0.3166,  0.3816,  0.1564]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1053, -0.1950, -0.1428, -0.3565, -0.1619, -0.2016, -0.3538,  0.0664,
+          0.3833, -0.0645, -0.0853]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0022497187851518562
+pre_time_step:
+[0, 44, 89, 133, 178, 222, 267, 311, 356, 400]
+mormal
+ loss0 0.005663, max_f_prime 9.677136, amin 0.001336, amax 0.191635, a_loss 0.000000
+
+At iterate    2    f=  5.66319D-03    |proj g|=  4.94207D-03
+max_f_prime 10.891429, amax0.184620,
+max_f_prime 10.891429, dt 0.002049, time_steps 976.000000, amax0.184620, M10.891429,
+Parameter containing:
+tensor([[-1.0891, -0.1375, -0.4434, -0.2038,  0.0132,  0.1146,  0.2597,  0.8198,
+          0.2187,  0.3281,  0.1492]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1080, -0.1963, -0.1091, -0.3218, -0.1599, -0.2301, -0.3871,  0.0782,
+          0.4038, -0.0584, -0.0855]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0020491803278688526
+pre_time_step:
+[0, 49, 98, 146, 195, 244, 293, 342, 390, 439]
+mormal
+ loss0 0.006923, max_f_prime 10.891429, amin 0.000310, amax 0.201905, a_loss 0.000000
+max_f_prime 9.626657, amax0.176417,
+max_f_prime 9.626657, dt 0.002245, time_steps 891.000000, amax0.176417, M9.626657,
+Parameter containing:
+tensor([[-0.9136,  0.0491, -0.5324, -0.3014, -0.0649,  0.1010,  0.2314,  0.6554,
+          0.2859,  0.3649,  0.1541]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1061, -0.1955, -0.1322, -0.3456, -0.1613, -0.2105, -0.3642,  0.0701,
+          0.3897, -0.0626, -0.0853]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.002244668911335578
+pre_time_step:
+[0, 45, 89, 134, 178, 223, 267, 312, 356, 401]
+mormal
+ loss0 0.005194, max_f_prime 9.626657, amin 0.002475, amax 0.194856, a_loss 0.000000
+
+At iterate    3    f=  5.19418D-03    |proj g|=  8.74687D-03
+max_f_prime 7.922525, amax0.181016,
+max_f_prime 7.922525, dt 0.002469, time_steps 810.000000, amax0.181016, M7.922525,
+Parameter containing:
+tensor([[-0.7923, -0.1145, -0.3966, -0.1948, -0.0171,  0.1065,  0.2269,  0.7329,
+          0.1628,  0.2210,  0.0946]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1039, -0.1859, -0.0940, -0.3109, -0.1521, -0.2194, -0.3768,  0.0740,
+          0.3996, -0.0637, -0.0881]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0024691358024691358
+pre_time_step:
+[0, 40, 81, 122, 162, 202, 243, 284, 324, 364]
+mormal
+ loss0 0.003568, max_f_prime 7.922525, amin 0.002450, amax 0.199801, a_loss 0.000000
+
+At iterate    4    f=  3.56771D-03    |proj g|=  2.48664D-03
+max_f_prime 7.834800, amax0.183942,
+max_f_prime 7.834800, dt 0.002466, time_steps 811.000000, amax0.183942, M7.834800,
+Parameter containing:
+tensor([[-0.7835, -0.2065, -0.3675, -0.1578,  0.0097,  0.1171,  0.2350,  0.7258,
+          0.1705,  0.1978,  0.0888]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1044, -0.1845, -0.0852, -0.3031, -0.1541, -0.2284, -0.3856,  0.0750,
+          0.4057, -0.0634, -0.0897]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.002466091245376079
+pre_time_step:
+[0, 41, 81, 122, 162, 203, 243, 284, 324, 365]
+mormal
+ loss0 0.003271, max_f_prime 7.834800, amin 0.002389, amax 0.202826, a_loss 0.000000
+max_f_prime 7.483899, amax0.200757,
+max_f_prime 7.483899, dt 0.002415, time_steps 828.000000, amax0.200757, M7.483899,
+Parameter containing:
+tensor([[-0.7484, -0.5747, -0.2510, -0.0099,  0.1167,  0.1592,  0.2677,  0.6976,
+          0.2013,  0.1051,  0.0658]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1066, -0.1790, -0.0499, -0.2715, -0.1618, -0.2641, -0.4207,  0.0793,
+          0.4299, -0.0624, -0.0959]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0024154589371980675
+pre_time_step:
+[0, 41, 83, 124, 166, 207, 248, 290, 331, 373]
+mormal
+ loss0 0.002524, max_f_prime 7.483899, amin 0.000437, amax 0.214928, a_loss 0.000000
+
+At iterate    5    f=  2.52377D-03    |proj g|=  8.33324D-03
+max_f_prime 12.326267, amax0.238511,
+max_f_prime 12.326267, dt 0.001714, time_steps 1167.000000, amax0.238511, M12.326267,
+Parameter containing:
+tensor([[-0.7808, -1.2908, -0.0582,  0.2942,  0.3472,  0.2543,  0.3469,  0.5475,
+          0.3319, -0.0063,  0.0436]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1156, -0.1784, -0.0080, -0.2412, -0.2000, -0.3497, -0.4996,  0.0867,
+          0.4822, -0.0592, -0.1090]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.001713796058269066
+pre_time_step:
+[0, 58, 117, 175, 233, 292, 350, 408, 467, 525]
+mormal
+ loss0 0.008963, max_f_prime 12.326267, amin 0.000637, amax 0.249784, a_loss 0.000000
+max_f_prime 7.523962, amax0.205424,
+max_f_prime 7.523962, dt 0.002378, time_steps 841.000000, amax0.205424, M7.523962,
+Parameter containing:
+tensor([[-0.7524, -0.6632, -0.2272,  0.0277,  0.1452,  0.1709,  0.2775,  0.6790,
+          0.2174,  0.0914,  0.0631]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1077, -0.1789, -0.0448, -0.2678, -0.1665, -0.2747, -0.4305,  0.0802,
+          0.4363, -0.0620, -0.0975]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0023781212841854932
+pre_time_step:
+[0, 42, 84, 126, 168, 210, 252, 294, 336, 378]
+mormal
+ loss0 0.002295, max_f_prime 7.523962, amin 0.000143, amax 0.218166, a_loss 0.000000
+
+At iterate    6    f=  2.29487D-03    |proj g|=  6.48837D-03
+max_f_prime 7.583928, amax0.221375,
+max_f_prime 7.583928, dt 0.002278, time_steps 878.000000, amax0.221375, M7.583928,
+Parameter containing:
+tensor([[-0.7584, -0.8657, -0.1328,  0.1700,  0.2354,  0.2008,  0.2930,  0.5647,
+          0.2308,  0.0460,  0.0455]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1085, -0.1662, -0.0271, -0.2619, -0.1885, -0.3127, -0.4637,  0.0814,
+          0.4561, -0.0620, -0.1038]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.002277904328018223
+pre_time_step:
+[0, 44, 88, 132, 176, 220, 263, 307, 351, 395]
+mormal
+ loss0 0.002628, max_f_prime 7.583928, amin 0.000170, amax 0.231859, a_loss 0.000000
+max_f_prime 7.545530, amax0.211161,
+max_f_prime 7.545530, dt 0.002342, time_steps 854.000000, amax0.211161, M7.545530,
+Parameter containing:
+tensor([[-0.7546, -0.7360, -0.1932,  0.0789,  0.1777,  0.1817,  0.2831,  0.6379,
+          0.2222,  0.0750,  0.0568]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1080, -0.1743, -0.0384, -0.2657, -0.1744, -0.2883, -0.4424,  0.0806,
+          0.4434, -0.0620, -0.0998]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.00234192037470726
+pre_time_step:
+[0, 43, 85, 128, 171, 214, 256, 299, 342, 384]
+mormal
+ loss0 0.002133, max_f_prime 7.545530, amin 0.000582, amax 0.221722, a_loss 0.000000
+
+At iterate    7    f=  2.13317D-03    |proj g|=  5.63165D-03
+max_f_prime 8.140181, amax0.223461,
+max_f_prime 8.140181, dt 0.002193, time_steps 912.000000, amax0.223461, M8.140181,
+Parameter containing:
+tensor([[-0.8140, -0.6917, -0.1574,  0.1695,  0.2269,  0.1964,  0.2820,  0.4509,
+          0.2329,  0.0887,  0.0453]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1076, -0.1586, -0.0458, -0.2894, -0.2084, -0.3225, -0.4679,  0.0782,
+          0.4555, -0.0632, -0.1053]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0021929824561403508
+pre_time_step:
+[0, 46, 91, 137, 182, 228, 274, 319, 365, 410]
+mormal
+ loss0 0.001136, max_f_prime 8.140181, amin 0.000831, amax 0.233964, a_loss 0.000000
+
+At iterate    8    f=  1.13628D-03    |proj g|=  2.60446D-03
+max_f_prime 8.647242, amax0.239710,
+max_f_prime 8.647242, dt 0.002053, time_steps 974.000000, amax0.239710, M8.647242,
+Parameter containing:
+tensor([[-0.8647, -0.6591, -0.1287,  0.1897,  0.2830,  0.2290,  0.3145,  0.3459,
+          0.1837,  0.0893,  0.0468]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.1028, -0.1407, -0.0489, -0.3049, -0.2427, -0.3599, -0.5016,  0.0761,
+          0.4701, -0.0642, -0.1111]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.002053388090349076
+pre_time_step:
+[0, 49, 97, 146, 195, 244, 292, 341, 390, 438]
+mormal
+ loss0 0.000850, max_f_prime 8.647243, amin 0.001306, amax 0.250820, a_loss 0.000000
+
+At iterate    9    f=  8.49773D-04    |proj g|=  3.43624D-03
+max_f_prime 8.704050, amax0.249971,
+max_f_prime 8.704050, dt 0.002004, time_steps 998.000000, amax0.249971, M8.704050,
+Parameter containing:
+tensor([[-0.8704, -0.6386, -0.1242,  0.1750,  0.3209,  0.2574,  0.3509,  0.3023,
+          0.1357,  0.0730,  0.0474]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0986, -0.1302, -0.0453, -0.3074, -0.2593, -0.3800, -0.5230,  0.0753,
+          0.4798, -0.0655, -0.1152]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.002004008016032064
+pre_time_step:
+[0, 50, 100, 150, 200, 250, 299, 349, 399, 449]
+mormal
+ loss0 0.000655, max_f_prime 8.704050, amin 0.000258, amax 0.261476, a_loss 0.000000
+
+At iterate   10    f=  6.55182D-04    |proj g|=  2.31164D-03
+max_f_prime 8.768032, amax0.265031,
+max_f_prime 8.768032, dt 0.001934, time_steps 1034.000000, amax0.265031, M8.768032,
+Parameter containing:
+tensor([[-0.8768, -0.6063, -0.1615,  0.1434,  0.3517,  0.3007,  0.4174,  0.2817,
+          0.0939,  0.0498,  0.0355]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0939, -0.1147, -0.0328, -0.3062, -0.2778, -0.4073, -0.5543,  0.0767,
+          0.4985, -0.0678, -0.1229]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0019342359767891683
+pre_time_step:
+[0, 52, 103, 155, 207, 258, 310, 362, 414, 465]
+mormal
+ loss0 0.000474, max_f_prime 8.768032, amin 0.001107, amax 0.277165, a_loss 0.000000
+
+At iterate   11    f=  4.73701D-04    |proj g|=  8.33273D-04
+max_f_prime 8.849393, amax0.271544,
+max_f_prime 8.849393, dt 0.001901, time_steps 1052.000000, amax0.271544, M8.849393,
+Parameter containing:
+tensor([[-0.8849, -0.5951, -0.1842,  0.1262,  0.3526,  0.3191,  0.4425,  0.2912,
+          0.0954,  0.0429,  0.0236]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0918, -0.1074, -0.0269, -0.3056, -0.2845, -0.4191, -0.5679,  0.0783,
+          0.5089, -0.0689, -0.1271]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0019011406844106464
+pre_time_step:
+[0, 53, 105, 158, 210, 263, 316, 368, 421, 473]
+mormal
+ loss0 0.000424, max_f_prime 8.849393, amin 0.001224, amax 0.283973, a_loss 0.000000
+
+At iterate   12    f=  4.23669D-04    |proj g|=  7.74788D-04
+max_f_prime 9.035473, amax0.292828,
+max_f_prime 9.035473, dt 0.001805, time_steps 1108.000000, amax0.292828, M9.035473,
+Parameter containing:
+tensor([[-0.9035, -0.5944, -0.2110,  0.1206,  0.3538,  0.3825,  0.4747,  0.3134,
+          0.1182,  0.0030, -0.0276]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0816, -0.0801, -0.0124, -0.3041, -0.3023, -0.4604, -0.6126,  0.0870,
+          0.5495, -0.0733, -0.1433]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0018050541516245488
+pre_time_step:
+[0, 55, 111, 166, 222, 277, 332, 388, 443, 499]
+mormal
+ loss0 0.000352, max_f_prime 9.035473, amin 0.000227, amax 0.306281, a_loss 0.000000
+
+At iterate   13    f=  3.51998D-04    |proj g|=  5.73981D-04
+max_f_prime 9.175227, amax0.309319,
+max_f_prime 9.175227, dt 0.001739, time_steps 1150.000000, amax0.309319, M9.175227,
+Parameter containing:
+tensor([[-0.9175, -0.5972, -0.2418,  0.1129,  0.3398,  0.4304,  0.4665,  0.3322,
+          0.1180,  0.0213, -0.0351]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-7.2481e-02, -5.5678e-02, -3.0143e-04, -3.0178e-01, -3.1247e-01,
+         -4.9270e-01, -6.4721e-01,  9.5639e-02,  5.8422e-01, -7.7349e-02,
+         -1.5710e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0017391304347826088
+pre_time_step:
+[0, 58, 115, 173, 230, 288, 345, 402, 460, 518]
+mormal
+ loss0 0.000320, max_f_prime 9.175227, amin 0.000151, amax 0.323604, a_loss 0.000000
+
+At iterate   14    f=  3.19552D-04    |proj g|=  7.15078D-04
+max_f_prime 9.170028, amax0.319393,
+max_f_prime 9.170028, dt 0.001708, time_steps 1171.000000, amax0.319393, M9.170028,
+Parameter containing:
+tensor([[-0.9170, -0.6138, -0.2416,  0.1281,  0.3349,  0.4549,  0.4503,  0.3310,
+          0.1123,  0.0245, -0.0342]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0665, -0.0404,  0.0078, -0.2991, -0.3176, -0.5122, -0.6684,  0.1017,
+          0.6072, -0.0800, -0.1661]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0017079419299743809
+pre_time_step:
+[0, 59, 117, 176, 234, 293, 351, 410, 468, 527]
+mormal
+ loss0 0.000298, max_f_prime 9.170028, amin 0.000052, amax 0.334203, a_loss 0.000000
+
+At iterate   15    f=  2.97841D-04    |proj g|=  4.88882D-04
+max_f_prime 9.111246, amax0.338177,
+max_f_prime 9.111246, dt 0.001656, time_steps 1208.000000, amax0.338177, M9.111246,
+Parameter containing:
+tensor([[-0.9111, -0.6348, -0.2318,  0.1470,  0.3246,  0.4605,  0.4215,  0.3201,
+          0.1110,  0.0306, -0.0081]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0553, -0.0145,  0.0209, -0.2906, -0.3233, -0.5423, -0.7080,  0.1139,
+          0.6532, -0.0850, -0.1836]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0016556291390728477
+pre_time_step:
+[0, 60, 121, 181, 242, 302, 362, 423, 483, 544]
+mormal
+ loss0 0.000270, max_f_prime 9.111245, amin 0.000157, amax 0.353982, a_loss 0.000000
+
+At iterate   16    f=  2.69669D-04    |proj g|=  4.55968D-04
+max_f_prime 9.001518, amax0.375933,
+max_f_prime 9.001518, dt 0.001559, time_steps 1283.000000, amax0.375933, M9.001518,
+Parameter containing:
+tensor([[-0.9002, -0.6585, -0.2120,  0.1532,  0.3154,  0.4526,  0.3899,  0.3115,
+          0.1197,  0.0439,  0.0139]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0348,  0.0283,  0.0377, -0.2697, -0.3309, -0.5967, -0.7875,  0.1383,
+          0.7455, -0.0963, -0.2198]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.001558846453624318
+pre_time_step:
+[0, 64, 128, 192, 257, 321, 385, 449, 513, 577]
+mormal
+ loss0 0.000240, max_f_prime 9.001517, amin 0.000057, amax 0.393735, a_loss 0.000000
+
+At iterate   17    f=  2.40414D-04    |proj g|=  2.13298D-04
+max_f_prime 8.954266, amax0.438699,
+max_f_prime 8.954266, dt 0.001414, time_steps 1414.000000, amax0.438699, M8.954266,
+Parameter containing:
+tensor([[-0.8954, -0.6843, -0.1938,  0.1532,  0.3084,  0.4467,  0.3737,  0.3036,
+          0.1276,  0.0543,  0.0355]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0049,  0.0796,  0.0586, -0.2358, -0.3448, -0.6859, -0.9196,  0.1765,
+          0.8937, -0.1144, -0.2779]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0014144271570014145
+pre_time_step:
+[0, 71, 141, 212, 283, 354, 424, 495, 566, 636]
+mormal
+ loss0 0.000214, max_f_prime 8.954266, amin 0.000123, amax 0.459777, a_loss 0.000000
+
+At iterate   18    f=  2.13663D-04    |proj g|=  2.44949D-04
+max_f_prime 8.883784, amax0.524551,
+max_f_prime 8.883784, dt 0.001255, time_steps 1594.000000, amax0.524551, M8.883784,
+Parameter containing:
+tensor([[-0.8884, -0.6944, -0.1968,  0.1666,  0.2987,  0.4216,  0.3776,  0.3036,
+          0.1258,  0.0673,  0.0479]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0173,  0.1013,  0.0588, -0.1693, -0.3500, -0.7966, -1.1006,  0.2382,
+          1.1076, -0.1427, -0.3628]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0012547051442910915
+pre_time_step:
+[0, 80, 159, 239, 319, 399, 478, 558, 638, 717]
+mormal
+ loss0 0.000175, max_f_prime 8.883784, amin 0.000873, amax 0.553781, a_loss 0.000000
+
+At iterate   19    f=  1.74957D-04    |proj g|=  1.05839D-03
+max_f_prime 8.988440, amax0.580654,
+max_f_prime 8.988440, dt 0.001163, time_steps 1719.000000, amax0.580654, M8.988440,
+Parameter containing:
+tensor([[-0.8988, -0.6863, -0.2125,  0.1645,  0.3021,  0.4216,  0.4027,  0.3008,
+          0.1268,  0.0668,  0.0419]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0309,  0.1115,  0.0556, -0.1272, -0.3567, -0.8702, -1.2189,  0.2772,
+          1.2438, -0.1607, -0.4171]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0011634671320535194
+pre_time_step:
+[0, 86, 172, 258, 344, 430, 516, 602, 688, 774]
+mormal
+ loss0 0.000144, max_f_prime 8.988440, amin 0.000365, amax 0.621887, a_loss 0.000000
+
+At iterate   20    f=  1.44126D-04    |proj g|=  9.23664D-04
+max_f_prime 9.141830, amax0.655868,
+max_f_prime 9.141830, dt 0.001059, time_steps 1888.000000, amax0.655868, M9.141830,
+Parameter containing:
+tensor([[-0.9142, -0.6605, -0.2237,  0.1386,  0.3296,  0.3924,  0.4159,  0.2960,
+          0.1466,  0.0644,  0.0443]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0473,  0.0991,  0.0370, -0.0455, -0.3536, -0.9557, -1.3766,  0.3358,
+          1.4390, -0.1876, -0.4962]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.001059322033898305
+pre_time_step:
+[0, 94, 189, 283, 378, 472, 566, 661, 755, 850]
+mormal
+ loss0 0.000106, max_f_prime 9.141830, amin 0.000070, amax 0.719518, a_loss 0.000000
+
+At iterate   21    f=  1.05532D-04    |proj g|=  5.96602D-04
+max_f_prime 9.242434, amax0.678175,
+max_f_prime 9.242434, dt 0.001030, time_steps 1941.000000, amax0.678175, M9.242434,
+Parameter containing:
+tensor([[-0.9242, -0.6483, -0.2295,  0.1439,  0.3448,  0.3731,  0.4278,  0.2923,
+          0.1442,  0.0680,  0.0374]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0444,  0.0700,  0.0160, -0.0140, -0.3401, -0.9620, -1.4088,  0.3523,
+          1.4873, -0.1958, -0.5172]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0010303967027305513
+pre_time_step:
+[0, 97, 194, 291, 388, 485, 582, 679, 776, 873]
+mormal
+ loss0 0.000093, max_f_prime 9.242434, amin 0.000053, amax 0.743655, a_loss 0.000000
+
+At iterate   22    f=  9.28664D-05    |proj g|=  1.09908D-04
+max_f_prime 9.274627, amax0.680327,
+max_f_prime 9.274627, dt 0.001027, time_steps 1947.000000, amax0.680327, M9.274627,
+Parameter containing:
+tensor([[-0.9275, -0.6418, -0.2316,  0.1528,  0.3483,  0.3584,  0.4274,  0.2959,
+          0.1416,  0.0710,  0.0350]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0363,  0.0370, -0.0049,  0.0040, -0.3207, -0.9429, -1.4011,  0.3570,
+          1.4916, -0.1984, -0.5206]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.001027221366204417
+pre_time_step:
+[0, 97, 195, 292, 389, 487, 584, 681, 779, 876]
+mormal
+ loss0 0.000086, max_f_prime 9.274627, amin 0.000001, amax 0.745785, a_loss 0.000000
+
+At iterate   23    f=  8.57672D-05    |proj g|=  1.90256D-04
+max_f_prime 9.260249, amax0.665250,
+max_f_prime 9.260249, dt 0.001045, time_steps 1914.000000, amax0.665250, M9.260249,
+Parameter containing:
+tensor([[-0.9260, -0.6389, -0.2283,  0.1542,  0.3439,  0.3592,  0.4206,  0.2999,
+          0.1387,  0.0688,  0.0372]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0269,  0.0119, -0.0158,  0.0024, -0.3016, -0.9084, -1.3630,  0.3502,
+          1.4584, -0.1957, -0.5089]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0010449320794148381
+pre_time_step:
+[0, 96, 191, 287, 383, 478, 574, 670, 766, 861]
+mormal
+ loss0 0.000081, max_f_prime 9.260249, amin 0.000045, amax 0.729182, a_loss 0.000000
+
+At iterate   24    f=  8.07837D-05    |proj g|=  1.59766D-04
+max_f_prime 9.263386, amax0.687546,
+max_f_prime 9.263386, dt 0.001019, time_steps 1962.000000, amax0.687546, M9.263386,
+Parameter containing:
+tensor([[-0.9263, -0.6290, -0.2156,  0.1454,  0.3366,  0.3760,  0.4073,  0.2918,
+          0.1357,  0.0615,  0.0461]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0152, -0.0416, -0.0324,  0.0585, -0.2370, -0.8720, -1.3683,  0.3729,
+          1.5058, -0.2087, -0.5339]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0010193679918450561
+pre_time_step:
+[0, 98, 196, 294, 392, 490, 589, 687, 785, 883]
+mormal
+ loss0 0.000075, max_f_prime 9.263386, amin 0.000214, amax 0.752909, a_loss 0.000000
+
+At iterate   25    f=  7.47010D-05    |proj g|=  3.52675D-04
+max_f_prime 9.229559, amax0.696779,
+max_f_prime 9.229559, dt 0.001010, time_steps 1980.000000, amax0.696779, M9.229559,
+Parameter containing:
+tensor([[-0.9230, -0.6388, -0.2177,  0.1484,  0.3321,  0.3923,  0.4006,  0.2933,
+          0.1341,  0.0641,  0.0440]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0207, -0.0225, -0.0171,  0.0594, -0.2282, -0.8745, -1.3804,  0.3795,
+          1.5258, -0.2130, -0.5434]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.00101010101010101
+pre_time_step:
+[0, 99, 198, 297, 396, 495, 594, 693, 792, 891]
+mormal
+ loss0 0.000070, max_f_prime 9.229560, amin 0.000043, amax 0.762916, a_loss 0.000000
+
+At iterate   26    f=  6.97110D-05    |proj g|=  2.99504D-04
+max_f_prime 9.251947, amax0.702613,
+max_f_prime 9.251947, dt 0.001004, time_steps 1993.000000, amax0.702613, M9.251947,
+Parameter containing:
+tensor([[-0.9252, -0.6440, -0.2235,  0.1481,  0.3369,  0.4034,  0.3986,  0.2974,
+          0.1356,  0.0651,  0.0373]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0250, -0.0104, -0.0080,  0.0600, -0.2217, -0.8736, -1.3872,  0.3837,
+          1.5385, -0.2160, -0.5499]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0010035122930255895
+pre_time_step:
+[0, 100, 199, 299, 399, 498, 598, 698, 797, 897]
+mormal
+ loss0 0.000068, max_f_prime 9.251946, amin 0.000094, amax 0.769231, a_loss 0.000000
+
+At iterate   27    f=  6.76163D-05    |proj g|=  1.02132D-04
+max_f_prime 9.264449, amax0.717062,
+max_f_prime 9.264449, dt 0.000988, time_steps 2025.000000, amax0.717062, M9.264449,
+Parameter containing:
+tensor([[-0.9264, -0.6499, -0.2234,  0.1478,  0.3450,  0.4072,  0.3962,  0.2963,
+          0.1353,  0.0662,  0.0351]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 2.8622e-02, -4.0607e-03, -1.1705e-03,  7.0741e-02, -2.0312e-01,
+         -8.6932e-01, -1.4031e+00,  3.9497e-01,  1.5697e+00, -2.2297e-01,
+         -5.6513e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0009876543209876543
+pre_time_step:
+[0, 101, 202, 304, 405, 506, 608, 709, 810, 911]
+mormal
+ loss0 0.000065, max_f_prime 9.264448, amin 0.000012, amax 0.784833, a_loss 0.000000
+
+At iterate   28    f=  6.53405D-05    |proj g|=  7.11738D-05
+max_f_prime 9.286376, amax0.761618,
+max_f_prime 9.286376, dt 0.000943, time_steps 2121.000000, amax0.761618, M9.286376,
+Parameter containing:
+tensor([[-0.9286, -0.6652, -0.2233,  0.1437,  0.3668,  0.4154,  0.3915,  0.2939,
+          0.1323,  0.0686,  0.0344]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0359,  0.0050,  0.0161,  0.1060, -0.1217, -0.8315, -1.4395,  0.4327,
+          1.6655, -0.2474, -0.6147]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000942951438000943
+pre_time_step:
+[0, 106, 212, 318, 424, 530, 636, 742, 848, 954]
+mormal
+ loss0 0.000062, max_f_prime 9.286376, amin 0.001067, amax 0.832737, a_loss 0.000000
+
+At iterate   29    f=  6.24174D-05    |proj g|=  2.73240D-04
+max_f_prime 9.299483, amax0.809706,
+max_f_prime 9.299483, dt 0.000899, time_steps 2224.000000, amax0.809706, M9.299483,
+Parameter containing:
+tensor([[-0.9299, -0.6718, -0.2253,  0.1398,  0.3846,  0.4191,  0.3893,  0.2925,
+          0.1263,  0.0685,  0.0363]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0331, -0.0233,  0.0139,  0.1569, -0.0029, -0.7598, -1.4619,  0.4784,
+          1.7682, -0.2773, -0.6708]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008992805755395684
+pre_time_step:
+[0, 111, 222, 334, 445, 556, 667, 778, 890, 1001]
+mormal
+ loss0 0.000058, max_f_prime 9.299482, amin 0.000038, amax 0.884118, a_loss 0.000000
+
+At iterate   30    f=  5.84408D-05    |proj g|=  3.00753D-04
+max_f_prime 9.291278, amax0.812075,
+max_f_prime 9.291278, dt 0.000897, time_steps 2229.000000, amax0.812075, M9.291278,
+Parameter containing:
+tensor([[-0.9291, -0.6686, -0.2312,  0.1365,  0.3698,  0.4197,  0.4042,  0.2883,
+          0.1285,  0.0646,  0.0468]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0334, -0.0099,  0.0056,  0.1412,  0.0166, -0.7342, -1.4543,  0.4835,
+          1.7729, -0.2827, -0.6769]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008972633467922835
+pre_time_step:
+[0, 111, 223, 334, 446, 557, 669, 780, 892, 1003]
+mormal
+ loss0 0.000049, max_f_prime 9.291278, amin 0.000073, amax 0.886469, a_loss 0.000000
+
+At iterate   31    f=  4.92771D-05    |proj g|=  9.92793D-05
+max_f_prime 9.265867, amax0.819458,
+max_f_prime 9.265867, dt 0.000892, time_steps 2243.000000, amax0.819458, M9.265867,
+Parameter containing:
+tensor([[-0.9266, -0.6690, -0.2298,  0.1337,  0.3679,  0.4095,  0.4122,  0.2827,
+          0.1331,  0.0634,  0.0524]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 3.2851e-02, -1.1345e-03, -1.7578e-03,  1.3035e-01,  5.4609e-02,
+         -6.9341e-01, -1.4454e+00,  4.9403e-01,  1.7882e+00, -2.9237e-01,
+         -6.8989e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008916629514043691
+pre_time_step:
+[0, 112, 224, 336, 449, 561, 673, 785, 897, 1009]
+mormal
+ loss0 0.000046, max_f_prime 9.265867, amin 0.000142, amax 0.894124, a_loss 0.000000
+
+At iterate   32    f=  4.58924D-05    |proj g|=  9.29031D-05
+max_f_prime 9.247938, amax0.825134,
+max_f_prime 9.247938, dt 0.000887, time_steps 2255.000000, amax0.825134, M9.247938,
+Parameter containing:
+tensor([[-0.9248, -0.6726, -0.2254,  0.1362,  0.3642,  0.4118,  0.4121,  0.2769,
+          0.1349,  0.0637,  0.0525]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0315,  0.0052, -0.0024,  0.1226,  0.0868, -0.6600, -1.4371,  0.5028,
+          1.7999, -0.3005, -0.7004]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008869179600886918
+pre_time_step:
+[0, 113, 226, 338, 451, 564, 677, 789, 902, 1015]
+mormal
+ loss0 0.000045, max_f_prime 9.247938, amin 0.000043, amax 0.899970, a_loss 0.000000
+
+At iterate   33    f=  4.49974D-05    |proj g|=  9.96027D-05
+max_f_prime 9.222112, amax0.833688,
+max_f_prime 9.222112, dt 0.000881, time_steps 2271.000000, amax0.833688, M9.222112,
+Parameter containing:
+tensor([[-0.9222, -0.6754, -0.2160,  0.1393,  0.3579,  0.4200,  0.4062,  0.2712,
+          0.1348,  0.0658,  0.0478]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 2.4090e-02, -9.9624e-04, -1.1919e-02,  1.0458e-01,  1.4733e-01,
+         -5.9124e-01, -1.4155e+00,  5.1973e-01,  1.8171e+00, -3.1625e-01,
+         -7.1897e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008806693086745927
+pre_time_step:
+[0, 114, 227, 341, 454, 568, 681, 795, 908, 1022]
+mormal
+ loss0 0.000044, max_f_prime 9.222113, amin 0.000129, amax 0.908535, a_loss 0.000000
+
+At iterate   34    f=  4.38363D-05    |proj g|=  3.07499D-04
+max_f_prime 9.235197, amax0.845387,
+max_f_prime 9.235197, dt 0.000871, time_steps 2297.000000, amax0.845387, M9.235197,
+Parameter containing:
+tensor([[-0.9235, -0.6775, -0.2171,  0.1401,  0.3568,  0.4246,  0.4044,  0.2735,
+          0.1340,  0.0679,  0.0464]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0238,  0.0047, -0.0149,  0.0911,  0.1723, -0.5671, -1.4205,  0.5330,
+          1.8418, -0.3266, -0.7350]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008707009142359599
+pre_time_step:
+[0, 115, 230, 345, 459, 574, 689, 804, 919, 1034]
+mormal
+ loss0 0.000042, max_f_prime 9.235197, amin 0.000095, amax 0.920897, a_loss 0.000000
+
+At iterate   35    f=  4.21304D-05    |proj g|=  1.34980D-04
+max_f_prime 9.274599, amax0.880807,
+max_f_prime 9.274599, dt 0.000842, time_steps 2375.000000, amax0.880807, M9.274599,
+Parameter containing:
+tensor([[-0.9275, -0.6802, -0.2188,  0.1412,  0.3556,  0.4358,  0.4007,  0.2773,
+          0.1305,  0.0697,  0.0453]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0232,  0.0156, -0.0238,  0.0589,  0.2314, -0.5152, -1.4455,  0.5702,
+          1.9170, -0.3546, -0.7807]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008421052631578948
+pre_time_step:
+[0, 119, 238, 356, 475, 594, 713, 831, 950, 1069]
+mormal
+ loss0 0.000039, max_f_prime 9.274599, amin 0.000081, amax 0.958505, a_loss 0.000000
+
+At iterate   36    f=  3.93431D-05    |proj g|=  1.46160D-04
+max_f_prime 9.293812, amax0.899787,
+max_f_prime 9.293812, dt 0.000828, time_steps 2416.000000, amax0.899787, M9.293812,
+Parameter containing:
+tensor([[-0.9294, -0.6788, -0.2191,  0.1428,  0.3538,  0.4383,  0.3993,  0.2776,
+          0.1295,  0.0697,  0.0458]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0222,  0.0244, -0.0303,  0.0258,  0.2537, -0.4897, -1.4624,  0.5910,
+          1.9572, -0.3708, -0.8059]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008278145695364238
+pre_time_step:
+[0, 121, 242, 362, 483, 604, 725, 846, 966, 1087]
+mormal
+ loss0 0.000038, max_f_prime 9.293812, amin 0.000118, amax 0.978606, a_loss 0.000000
+
+At iterate   37    f=  3.77270D-05    |proj g|=  2.42683D-04
+max_f_prime 9.310636, amax0.918496,
+max_f_prime 9.310636, dt 0.000814, time_steps 2457.000000, amax0.918496, M9.310636,
+Parameter containing:
+tensor([[-0.9311, -0.6741, -0.2236,  0.1449,  0.3554,  0.4369,  0.3975,  0.2771,
+          0.1298,  0.0678,  0.0486]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0217,  0.0294, -0.0269, -0.0021,  0.2553, -0.4873, -1.4913,  0.6089,
+          1.9972, -0.3842, -0.8284]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000814000814000814
+pre_time_step:
+[0, 123, 246, 369, 491, 614, 737, 860, 983, 1106]
+mormal
+ loss0 0.000035, max_f_prime 9.310637, amin 0.000094, amax 0.998589, a_loss 0.000000
+
+At iterate   38    f=  3.52783D-05    |proj g|=  2.28881D-04
+max_f_prime 9.318295, amax0.929828,
+max_f_prime 9.318295, dt 0.000806, time_steps 2482.000000, amax0.929828, M9.318295,
+Parameter containing:
+tensor([[-0.9318, -0.6659, -0.2311,  0.1436,  0.3601,  0.4319,  0.3965,  0.2739,
+          0.1323,  0.0656,  0.0546]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0212,  0.0204, -0.0078,  0.0047,  0.2194, -0.5242, -1.5301,  0.6159,
+          2.0219, -0.3886, -0.8387]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008058017727639
+pre_time_step:
+[0, 124, 248, 372, 496, 620, 745, 869, 993, 1117]
+mormal
+ loss0 0.000032, max_f_prime 9.318295, amin 0.000003, amax 1.010943, a_loss 0.000000
+
+At iterate   39    f=  3.15102D-05    |proj g|=  1.58285D-04
+max_f_prime 9.324381, amax0.928286,
+max_f_prime 9.324381, dt 0.000807, time_steps 2479.000000, amax0.928286, M9.324381,
+Parameter containing:
+tensor([[-0.9324, -0.6627, -0.2306,  0.1468,  0.3591,  0.4306,  0.3947,  0.2725,
+          0.1321,  0.0660,  0.0533]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0183,  0.0155, -0.0036, -0.0074,  0.2012, -0.5320, -1.5357,  0.6156,
+          2.0184, -0.3896, -0.8383]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008067769261799112
+pre_time_step:
+[0, 124, 248, 372, 496, 620, 744, 868, 992, 1116]
+mormal
+ loss0 0.000031, max_f_prime 9.324381, amin 0.000093, amax 1.009217, a_loss 0.000000
+
+At iterate   40    f=  3.07791D-05    |proj g|=  4.98514D-05
+max_f_prime 9.325270, amax0.926657,
+max_f_prime 9.325270, dt 0.000808, time_steps 2475.000000, amax0.926657, M9.325270,
+Parameter containing:
+tensor([[-0.9325, -0.6616, -0.2276,  0.1475,  0.3602,  0.4307,  0.3928,  0.2708,
+          0.1314,  0.0673,  0.0505]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.4069e-02,  5.2366e-03,  1.5038e-03, -1.0279e-02,  1.9744e-01,
+         -5.2579e-01, -1.5335e+00,  6.1683e-01,  2.0146e+00, -3.9238e-01,
+         -8.3941e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008080808080808081
+pre_time_step:
+[0, 124, 248, 371, 495, 619, 743, 866, 990, 1114]
+mormal
+ loss0 0.000030, max_f_prime 9.325271, amin 0.000015, amax 1.007297, a_loss 0.000000
+
+At iterate   41    f=  3.02813D-05    |proj g|=  1.30327D-04
+max_f_prime 9.335215, amax0.921878,
+max_f_prime 9.335215, dt 0.000811, time_steps 2466.000000, amax0.921878, M9.335215,
+Parameter containing:
+tensor([[-0.9335, -0.6602, -0.2249,  0.1465,  0.3604,  0.4302,  0.3931,  0.2718,
+          0.1308,  0.0679,  0.0473]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0092, -0.0090,  0.0035, -0.0087,  0.1918, -0.5191, -1.5270,  0.6156,
+          2.0040, -0.3936, -0.8374]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008110300081103001
+pre_time_step:
+[0, 123, 247, 370, 493, 616, 740, 863, 986, 1110]
+mormal
+ loss0 0.000030, max_f_prime 9.335216, amin 0.000031, amax 1.001977, a_loss 0.000000
+
+At iterate   42    f=  3.00518D-05    |proj g|=  3.56506D-05
+max_f_prime 9.337070, amax0.927559,
+max_f_prime 9.337070, dt 0.000807, time_steps 2478.000000, amax0.927559, M9.337070,
+Parameter containing:
+tensor([[-0.9337, -0.6617, -0.2260,  0.1454,  0.3601,  0.4310,  0.3941,  0.2730,
+          0.1307,  0.0675,  0.0489]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0108, -0.0050,  0.0024, -0.0070,  0.1999, -0.5158, -1.5327,  0.6203,
+          2.0162, -0.3967, -0.8436]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008071025020177562
+pre_time_step:
+[0, 124, 248, 372, 496, 620, 743, 867, 991, 1115]
+mormal
+ loss0 0.000030, max_f_prime 9.337070, amin 0.000006, amax 1.008090, a_loss 0.000000
+
+At iterate   43    f=  2.98410D-05    |proj g|=  2.33720D-05
+max_f_prime 9.336738, amax0.934734,
+max_f_prime 9.336738, dt 0.000802, time_steps 2493.000000, amax0.934734, M9.336738,
+Parameter containing:
+tensor([[-0.9337, -0.6643, -0.2258,  0.1440,  0.3582,  0.4308,  0.3958,  0.2733,
+          0.1314,  0.0674,  0.0522]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.2513e-02,  6.8823e-04,  6.3466e-04, -3.7574e-03,  2.0748e-01,
+         -5.1091e-01, -1.5411e+00,  6.2684e-01,  2.0316e+00, -4.0200e-01,
+         -8.5269e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000030, max_f_prime 9.336738, amin 0.000012, amax 1.015775, a_loss 0.000000
+
+At iterate   44    f=  2.96077D-05    |proj g|=  2.95357D-05
+max_f_prime 9.340004, amax0.940796,
+max_f_prime 9.340004, dt 0.000798, time_steps 2506.000000, amax0.940796, M9.340004,
+Parameter containing:
+tensor([[-0.9340, -0.6667, -0.2244,  0.1430,  0.3566,  0.4312,  0.3968,  0.2745,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0985e-02, -2.7824e-03,  3.8264e-04, -1.8755e-04,  2.1389e-01,
+         -4.9843e-01, -1.5471e+00,  6.3494e-01,  2.0442e+00, -4.1030e-01,
+         -8.6355e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340004, amin 0.000001, amax 1.022100, a_loss 0.000000
+
+At iterate   45    f=  2.94788D-05    |proj g|=  2.22786D-05
+max_f_prime 9.339925, amax0.945868,
+max_f_prime 9.339925, dt 0.000795, time_steps 2517.000000, amax0.945868, M9.339925,
+Parameter containing:
+tensor([[-0.9340, -0.6696, -0.2230,  0.1426,  0.3563,  0.4323,  0.3967,  0.2755,
+          0.1310,  0.0680,  0.0538]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 9.0730e-03, -3.2261e-03,  7.9031e-04, -3.5249e-03,  2.1797e-01,
+         -4.8255e-01, -1.5520e+00,  6.4333e-01,  2.0546e+00, -4.2016e-01,
+         -8.7511e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007945967421533572
+pre_time_step:
+[0, 126, 252, 378, 503, 629, 755, 881, 1007, 1133]
+mormal
+ loss0 0.000030, max_f_prime 9.339925, amin 0.000006, amax 1.027286, a_loss 0.000000
+max_f_prime 9.339988, amax0.941795,
+max_f_prime 9.339988, dt 0.000797, time_steps 2508.000000, amax0.941795, M9.339988,
+Parameter containing:
+tensor([[-0.9340, -0.6673, -0.2241,  0.1429,  0.3566,  0.4314,  0.3968,  0.2747,
+          0.1312,  0.0676,  0.0536]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0609e-02, -2.8698e-03,  4.6291e-04, -8.4469e-04,  2.1469e-01,
+         -4.9530e-01, -1.5481e+00,  6.3659e-01,  2.0462e+00, -4.1224e-01,
+         -8.6583e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007974481658692185
+pre_time_step:
+[0, 125, 251, 376, 502, 627, 752, 878, 1003, 1129]
+mormal
+ loss0 0.000029, max_f_prime 9.339989, amin 0.000003, amax 1.023121, a_loss 0.000000
+max_f_prime 9.340000, amax0.941014,
+max_f_prime 9.340000, dt 0.000798, time_steps 2507.000000, amax0.941014, M9.340000,
+Parameter containing:
+tensor([[-0.9340, -0.6669, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0676,  0.0536]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0903e-02, -2.8014e-03,  4.0012e-04, -3.3066e-04,  2.1406e-01,
+         -4.9775e-01, -1.5473e+00,  6.3530e-01,  2.0446e+00, -4.1072e-01,
+         -8.6405e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007977662544874351
+pre_time_step:
+[0, 125, 251, 376, 501, 627, 752, 877, 1003, 1128]
+mormal
+ loss0 0.000030, max_f_prime 9.340000, amin 0.000000, amax 1.022322, a_loss 0.000000
+max_f_prime 9.340004, amax0.940804,
+max_f_prime 9.340004, dt 0.000798, time_steps 2506.000000, amax0.940804, M9.340004,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2244,  0.1430,  0.3566,  0.4312,  0.3968,  0.2745,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0982e-02, -2.7831e-03,  3.8329e-04, -1.9289e-04,  2.1389e-01,
+         -4.9840e-01, -1.5471e+00,  6.3495e-01,  2.0442e+00, -4.1031e-01,
+         -8.6357e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340004, amin 0.000003, amax 1.022108, a_loss 0.000000
+max_f_prime 9.340002, amax0.940943,
+max_f_prime 9.340002, dt 0.000798, time_steps 2506.000000, amax0.940943, M9.340002,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0930e-02, -2.7952e-03,  3.9440e-04, -2.8382e-04,  2.1400e-01,
+         -4.9797e-01, -1.5472e+00,  6.3518e-01,  2.0445e+00, -4.1058e-01,
+         -8.6389e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340002, amin 0.000002, amax 1.022249, a_loss 0.000000
+max_f_prime 9.340003, amax0.940832,
+max_f_prime 9.340003, dt 0.000798, time_steps 2506.000000, amax0.940832, M9.340003,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2244,  0.1430,  0.3566,  0.4312,  0.3968,  0.2745,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0972e-02, -2.7856e-03,  3.8555e-04, -2.1134e-04,  2.1392e-01,
+         -4.9831e-01, -1.5471e+00,  6.3500e-01,  2.0443e+00, -4.1037e-01,
+         -8.6364e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340003, amin 0.000001, amax 1.022137, a_loss 0.000000
+max_f_prime 9.340002, amax0.940905,
+max_f_prime 9.340002, dt 0.000798, time_steps 2506.000000, amax0.940905, M9.340002,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0944e-02, -2.7919e-03,  3.9139e-04, -2.5917e-04,  2.1397e-01,
+         -4.9809e-01, -1.5472e+00,  6.3512e-01,  2.0444e+00, -4.1051e-01,
+         -8.6380e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340002, amin 0.000001, amax 1.022211, a_loss 0.000000
+max_f_prime 9.340002, amax0.940930,
+max_f_prime 9.340002, dt 0.000798, time_steps 2506.000000, amax0.940930, M9.340002,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0935e-02, -2.7941e-03,  3.9338e-04, -2.7544e-04,  2.1399e-01,
+         -4.9801e-01, -1.5472e+00,  6.3516e-01,  2.0445e+00, -4.1056e-01,
+         -8.6386e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340002, amin 0.000003, amax 1.022236, a_loss 0.000000
+
+At iterate   46    f=  2.94722D-05    |proj g|=  2.26927D-05
+max_f_prime 9.336062, amax0.976315,
+max_f_prime 9.336062, dt 0.000775, time_steps 2582.000000, amax0.976315, M9.336062,
+Parameter containing:
+tensor([[-0.9336, -0.6932, -0.2143,  0.1400,  0.3537,  0.4379,  0.3974,  0.2824,
+          0.1302,  0.0713,  0.0576]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-8.4794e-04, -4.9856e-03,  7.8456e-03, -2.3858e-03,  2.3198e-01,
+         -3.9404e-01, -1.5877e+00,  6.9351e-01,  2.1169e+00, -4.8134e-01,
+         -9.4649e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000774593338497289
+pre_time_step:
+[0, 129, 258, 387, 516, 646, 775, 904, 1033, 1162]
+mormal
+ loss0 0.000033, max_f_prime 9.336061, amin 0.000042, amax 1.058432, a_loss 0.000000
+max_f_prime 9.339562, amax0.944878,
+max_f_prime 9.339562, dt 0.000795, time_steps 2515.000000, amax0.944878, M9.339562,
+Parameter containing:
+tensor([[-0.9340, -0.6698, -0.2232,  0.1427,  0.3563,  0.4320,  0.3969,  0.2754,
+          0.1312,  0.0680,  0.0540]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 9.6205e-03, -3.0386e-03,  1.2248e-03, -5.1089e-04,  2.1600e-01,
+         -4.8641e-01, -1.5517e+00,  6.4167e-01,  2.0525e+00, -4.1845e-01,
+         -8.7308e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007952286282306163
+pre_time_step:
+[0, 126, 252, 377, 503, 629, 755, 880, 1006, 1132]
+mormal
+ loss0 0.000030, max_f_prime 9.339562, amin 0.000005, amax 1.026275, a_loss 0.000000
+max_f_prime 9.339940, amax0.941488,
+max_f_prime 9.339940, dt 0.000797, time_steps 2508.000000, amax0.941488, M9.339940,
+Parameter containing:
+tensor([[-0.9340, -0.6672, -0.2242,  0.1430,  0.3566,  0.4314,  0.3968,  0.2747,
+          0.1313,  0.0676,  0.0536]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0749e-02, -2.8287e-03,  5.1098e-04, -3.0874e-04,  2.1428e-01,
+         -4.9637e-01, -1.5479e+00,  6.3608e-01,  2.0456e+00, -4.1167e-01,
+         -8.6516e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007974481658692185
+pre_time_step:
+[0, 125, 251, 376, 502, 627, 752, 878, 1003, 1129]
+mormal
+ loss0 0.000029, max_f_prime 9.339940, amin 0.000001, amax 1.022808, a_loss 0.000000
+max_f_prime 9.339990, amax0.941034,
+max_f_prime 9.339990, dt 0.000798, time_steps 2507.000000, amax0.941034, M9.339990,
+Parameter containing:
+tensor([[-0.9340, -0.6669, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0676,  0.0536]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0900e-02, -2.8006e-03,  4.1537e-04, -2.8167e-04,  2.1405e-01,
+         -4.9770e-01, -1.5474e+00,  6.3533e-01,  2.0447e+00, -4.1076e-01,
+         -8.6410e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007977662544874351
+pre_time_step:
+[0, 125, 251, 376, 501, 627, 752, 877, 1003, 1128]
+mormal
+ loss0 0.000030, max_f_prime 9.339991, amin 0.000001, amax 1.022343, a_loss 0.000000
+max_f_prime 9.340002, amax0.940932,
+max_f_prime 9.340002, dt 0.000798, time_steps 2506.000000, amax0.940932, M9.340002,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0934e-02, -2.7942e-03,  3.9377e-04, -2.7555e-04,  2.1399e-01,
+         -4.9800e-01, -1.5472e+00,  6.3516e-01,  2.0445e+00, -4.1056e-01,
+         -8.6386e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340002, amin 0.000002, amax 1.022238, a_loss 0.000000
+max_f_prime 9.340001, amax0.940933,
+max_f_prime 9.340001, dt 0.000798, time_steps 2506.000000, amax0.940933, M9.340001,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0934e-02, -2.7943e-03,  3.9406e-04, -2.7563e-04,  2.1400e-01,
+         -4.9800e-01, -1.5472e+00,  6.3516e-01,  2.0445e+00, -4.1056e-01,
+         -8.6387e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340001, amin 0.000002, amax 1.022240, a_loss 0.000000
+max_f_prime 9.339996, amax0.940984,
+max_f_prime 9.339996, dt 0.000798, time_steps 2507.000000, amax0.940984, M9.339996,
+Parameter containing:
+tensor([[-0.9340, -0.6669, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0676,  0.0536]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0917e-02, -2.7974e-03,  4.0472e-04, -2.7865e-04,  2.1402e-01,
+         -4.9785e-01, -1.5473e+00,  6.3525e-01,  2.0446e+00, -4.1066e-01,
+         -8.6398e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007977662544874351
+pre_time_step:
+[0, 125, 251, 376, 501, 627, 752, 877, 1003, 1128]
+mormal
+ loss0 0.000030, max_f_prime 9.339995, amin 0.000002, amax 1.022291, a_loss 0.000000
+max_f_prime 9.340001, amax0.940933,
+max_f_prime 9.340001, dt 0.000798, time_steps 2506.000000, amax0.940933, M9.340001,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0934e-02, -2.7943e-03,  3.9416e-04, -2.7566e-04,  2.1400e-01,
+         -4.9800e-01, -1.5472e+00,  6.3517e-01,  2.0445e+00, -4.1056e-01,
+         -8.6387e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340001, amin 0.000002, amax 1.022240, a_loss 0.000000
+max_f_prime 9.340001, amax0.940934,
+max_f_prime 9.340001, dt 0.000798, time_steps 2506.000000, amax0.940934, M9.340001,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0934e-02, -2.7943e-03,  3.9419e-04, -2.7567e-04,  2.1400e-01,
+         -4.9800e-01, -1.5472e+00,  6.3517e-01,  2.0445e+00, -4.1056e-01,
+         -8.6387e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340001, amin 0.000002, amax 1.022240, a_loss 0.000000
+max_f_prime 9.339999, amax0.940959,
+max_f_prime 9.339999, dt 0.000798, time_steps 2507.000000, amax0.940959, M9.339999,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0676,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0926e-02, -2.7959e-03,  3.9946e-04, -2.7716e-04,  2.1401e-01,
+         -4.9792e-01, -1.5473e+00,  6.3521e-01,  2.0445e+00, -4.1061e-01,
+         -8.6393e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007977662544874351
+pre_time_step:
+[0, 125, 251, 376, 501, 627, 752, 877, 1003, 1128]
+mormal
+ loss0 0.000030, max_f_prime 9.339998, amin 0.000000, amax 1.022266, a_loss 0.000000
+max_f_prime 9.340001, amax0.940934,
+max_f_prime 9.340001, dt 0.000798, time_steps 2506.000000, amax0.940934, M9.340001,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0934e-02, -2.7944e-03,  3.9422e-04, -2.7568e-04,  2.1400e-01,
+         -4.9800e-01, -1.5472e+00,  6.3517e-01,  2.0445e+00, -4.1056e-01,
+         -8.6387e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340001, amin 0.000002, amax 1.022240, a_loss 0.000000
+max_f_prime 9.340001, amax0.940934,
+max_f_prime 9.340001, dt 0.000798, time_steps 2506.000000, amax0.940934, M9.340001,
+Parameter containing:
+tensor([[-0.9340, -0.6668, -0.2243,  0.1430,  0.3566,  0.4313,  0.3968,  0.2746,
+          0.1313,  0.0675,  0.0535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.0934e-02, -2.7943e-03,  3.9419e-04, -2.7567e-04,  2.1400e-01,
+         -4.9800e-01, -1.5472e+00,  6.3517e-01,  2.0445e+00, -4.1056e-01,
+         -8.6387e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007980845969672786
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1128]
+mormal
+ loss0 0.000029, max_f_prime 9.340001, amin 0.000002, amax 1.022240, a_loss 0.000000
+
+At iterate   47    f=  2.94719D-05    |proj g|=  2.27182D-05
+max_f_prime 9.332943, amax0.954243,
+max_f_prime 9.332943, dt 0.000789, time_steps 2534.000000, amax0.954243, M9.332943,
+Parameter containing:
+tensor([[-0.9333, -0.6817, -0.2200,  0.1427,  0.3570,  0.4348,  0.3972,  0.2768,
+          0.1302,  0.0704,  0.0555]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0021, -0.0047,  0.0089, -0.0051,  0.2030, -0.4410, -1.5688,  0.6649,
+          2.0707, -0.4526, -0.9081]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007892659826361484
+pre_time_step:
+[0, 127, 253, 380, 507, 634, 760, 887, 1014, 1140]
+mormal
+ loss0 0.000030, max_f_prime 9.332944, amin 0.000017, amax 1.035349, a_loss 0.000000
+max_f_prime 9.338553, amax0.943664,
+max_f_prime 9.338553, dt 0.000796, time_steps 2512.000000, amax0.943664, M9.338553,
+Parameter containing:
+tensor([[-0.9339, -0.6699, -0.2235,  0.1429,  0.3567,  0.4320,  0.3969,  0.2750,
+          0.1311,  0.0681,  0.0539]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 9.1185e-03, -3.1889e-03,  2.1306e-03, -1.2571e-03,  2.1174e-01,
+         -4.8630e-01, -1.5517e+00,  6.4126e-01,  2.0499e+00, -4.1919e-01,
+         -8.7295e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007961783439490446
+pre_time_step:
+[0, 126, 251, 377, 502, 628, 754, 879, 1005, 1130]
+mormal
+ loss0 0.000029, max_f_prime 9.338553, amin 0.000001, amax 1.024930, a_loss 0.000000
+
+At iterate   48    f=  2.94347D-05    |proj g|=  5.09410D-05
+max_f_prime 9.317293, amax0.956868,
+max_f_prime 9.317293, dt 0.000788, time_steps 2539.000000, amax0.956868, M9.317293,
+Parameter containing:
+tensor([[-0.9317, -0.6900, -0.2166,  0.1431,  0.3554,  0.4363,  0.3989,  0.2758,
+          0.1308,  0.0718,  0.0557]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-9.7622e-04, -1.0334e-03,  3.7621e-04, -1.0266e-03,  2.0648e-01,
+         -4.0708e-01, -1.5687e+00,  6.7560e-01,  2.0752e+00, -4.7015e-01,
+         -9.2509e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007877116975187081
+pre_time_step:
+[0, 127, 254, 381, 508, 635, 762, 889, 1016, 1143]
+mormal
+ loss0 0.000030, max_f_prime 9.317292, amin 0.000005, amax 1.037616, a_loss 0.000000
+max_f_prime 9.334189, amax0.946374,
+max_f_prime 9.334189, dt 0.000794, time_steps 2518.000000, amax0.946374, M9.334189,
+Parameter containing:
+tensor([[-0.9334, -0.6740, -0.2220,  0.1430,  0.3564,  0.4329,  0.3973,  0.2752,
+          0.1310,  0.0689,  0.0543]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 7.0465e-03, -2.7465e-03,  1.7705e-03, -1.2098e-03,  2.1066e-01,
+         -4.7004e-01, -1.5552e+00,  6.4831e-01,  2.0551e+00, -4.2965e-01,
+         -8.8365e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007942811755361397
+pre_time_step:
+[0, 126, 252, 378, 504, 630, 755, 881, 1007, 1133]
+mormal
+ loss0 0.000029, max_f_prime 9.334189, amin 0.000009, amax 1.027534, a_loss 0.000000
+max_f_prime 9.337691, amax0.944200,
+max_f_prime 9.337691, dt 0.000796, time_steps 2513.000000, amax0.944200, M9.337691,
+Parameter containing:
+tensor([[-0.9338, -0.6707, -0.2232,  0.1429,  0.3566,  0.4322,  0.3970,  0.2751,
+          0.1310,  0.0683,  0.0540]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 8.7089e-03, -3.1014e-03,  2.0594e-03, -1.2477e-03,  2.1153e-01,
+         -4.8309e-01, -1.5524e+00,  6.4265e-01,  2.0509e+00, -4.2126e-01,
+         -8.7507e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007958615200955034
+pre_time_step:
+[0, 126, 251, 377, 503, 628, 754, 880, 1005, 1131]
+mormal
+ loss0 0.000029, max_f_prime 9.337690, amin 0.000002, amax 1.025444, a_loss 0.000000
+max_f_prime 9.335380, amax0.945635,
+max_f_prime 9.335380, dt 0.000795, time_steps 2516.000000, amax0.945635, M9.335380,
+Parameter containing:
+tensor([[-0.9335, -0.6729, -0.2224,  0.1430,  0.3565,  0.4326,  0.3972,  0.2751,
+          0.1310,  0.0687,  0.0542]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 7.6117e-03, -2.8672e-03,  1.8687e-03, -1.2227e-03,  2.1096e-01,
+         -4.7448e-01, -1.5542e+00,  6.4638e-01,  2.0536e+00, -4.2679e-01,
+         -8.8073e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000794912559618442
+pre_time_step:
+[0, 126, 252, 377, 503, 629, 755, 881, 1006, 1132]
+mormal
+ loss0 0.000029, max_f_prime 9.335380, amin 0.000007, amax 1.026823, a_loss 0.000000
+
+At iterate   49    f=  2.93517D-05    |proj g|=  5.11284D-05
+max_f_prime 9.321939, amax0.963998,
+max_f_prime 9.321939, dt 0.000783, time_steps 2555.000000, amax0.963998, M9.321939,
+Parameter containing:
+tensor([[-0.9322, -0.6935, -0.2168,  0.1437,  0.3591,  0.4398,  0.3965,  0.2741,
+          0.1321,  0.0706,  0.0560]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-6.3033e-03,  3.2129e-04,  1.1219e-03, -2.7155e-03,  1.8138e-01,
+         -3.8621e-01, -1.5914e+00,  6.9220e-01,  2.0892e+00, -4.9623e-01,
+         -9.5201e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007827788649706458
+pre_time_step:
+[0, 128, 256, 383, 511, 639, 767, 894, 1022, 1150]
+mormal
+ loss0 0.000030, max_f_prime 9.321939, amin 0.000005, amax 1.044593, a_loss 0.000000
+max_f_prime 9.331943, amax0.950331,
+max_f_prime 9.331943, dt 0.000792, time_steps 2526.000000, amax0.950331, M9.331943,
+Parameter containing:
+tensor([[-0.9332, -0.6782, -0.2210,  0.1432,  0.3572,  0.4345,  0.3970,  0.2749,
+          0.1313,  0.0692,  0.0547]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 4.0533e-03, -2.0518e-03,  1.6777e-03, -1.6044e-03,  2.0339e-01,
+         -4.5191e-01, -1.5637e+00,  6.5810e-01,  2.0627e+00, -4.4455e-01,
+         -8.9896e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000791765637371338
+pre_time_step:
+[0, 126, 253, 379, 505, 632, 758, 884, 1010, 1137]
+mormal
+ loss0 0.000029, max_f_prime 9.331943, amin 0.000000, amax 1.031367, a_loss 0.000000
+
+At iterate   50    f=  2.91271D-05    |proj g|=  8.29629D-05
+max_f_prime 9.302090, amax0.974042,
+max_f_prime 9.302090, dt 0.000777, time_steps 2575.000000, amax0.974042, M9.302090,
+Parameter containing:
+tensor([[-0.9302, -0.7108, -0.2128,  0.1450,  0.3632,  0.4453,  0.3953,  0.2707,
+          0.1331,  0.0728,  0.0579]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.9629e-02,  6.2012e-03, -1.6578e-03, -3.5570e-03,  1.3113e-01,
+         -3.1156e-01, -1.6260e+00,  7.3003e-01,  2.1070e+00, -5.6133e-01,
+         -1.0142e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007766990291262136
+pre_time_step:
+[0, 129, 258, 386, 515, 644, 773, 901, 1030, 1159]
+mormal
+ loss0 0.000032, max_f_prime 9.302091, amin 0.000043, amax 1.053480, a_loss 0.000000
+max_f_prime 9.326782, amax0.954429,
+max_f_prime 9.326782, dt 0.000789, time_steps 2535.000000, amax0.954429, M9.326782,
+Parameter containing:
+tensor([[-0.9327, -0.6838, -0.2196,  0.1435,  0.3582,  0.4363,  0.3967,  0.2741,
+          0.1316,  0.0698,  0.0552]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-4.0405e-05, -6.2519e-04,  1.1012e-03, -1.9420e-03,  1.9090e-01,
+         -4.2765e-01, -1.5745e+00,  6.7053e-01,  2.0704e+00, -4.6474e-01,
+         -9.1887e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007889546351084812
+pre_time_step:
+[0, 127, 254, 380, 507, 634, 761, 887, 1014, 1141]
+mormal
+ loss0 0.000029, max_f_prime 9.326782, amin 0.000010, amax 1.035190, a_loss 0.000000
+
+At iterate   51    f=  2.89093D-05    |proj g|=  8.93729D-05
+max_f_prime 9.315220, amax0.973495,
+max_f_prime 9.315220, dt 0.000777, time_steps 2575.000000, amax0.973495, M9.315220,
+Parameter containing:
+tensor([[-0.9315, -0.7054, -0.2148,  0.1450,  0.3663,  0.4448,  0.3939,  0.2704,
+          0.1324,  0.0720,  0.0564]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.0304e-02,  6.8003e-03, -5.9616e-03, -5.7891e-04,  1.0945e-01,
+         -3.3004e-01, -1.6393e+00,  7.2876e-01,  2.1059e+00, -5.6173e-01,
+         -1.0145e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007766990291262136
+pre_time_step:
+[0, 129, 258, 386, 515, 644, 773, 901, 1030, 1159]
+mormal
+ loss0 0.000030, max_f_prime 9.315220, amin 0.000021, amax 1.052945, a_loss 0.000000
+max_f_prime 9.324445, amax0.958284,
+max_f_prime 9.324445, dt 0.000786, time_steps 2543.000000, amax0.958284, M9.324445,
+Parameter containing:
+tensor([[-0.9324, -0.6882, -0.2186,  0.1438,  0.3598,  0.4381,  0.3961,  0.2734,
+          0.1318,  0.0702,  0.0554]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.1153e-03,  8.7587e-04, -3.2658e-04, -1.6664e-03,  1.7444e-01,
+         -4.0791e-01, -1.5876e+00,  6.8231e-01,  2.0776e+00, -4.8434e-01,
+         -9.3819e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007864726700747149
+pre_time_step:
+[0, 127, 254, 381, 509, 636, 763, 890, 1017, 1144]
+mormal
+ loss0 0.000029, max_f_prime 9.324445, amin 0.000002, amax 1.038779, a_loss 0.000000
+
+At iterate   52    f=  2.85515D-05    |proj g|=  5.64537D-05
+max_f_prime 9.315686, amax0.998166,
+max_f_prime 9.315686, dt 0.000761, time_steps 2627.000000, amax0.998166, M9.315686,
+Parameter containing:
+tensor([[-0.9316, -0.7305, -0.2126,  0.1498,  0.3874,  0.4569,  0.3852,  0.2601,
+          0.1351,  0.0723,  0.0574]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0371, -0.0041,  0.0079, -0.0149, -0.0937, -0.1878, -1.7669,  0.8259,
+          2.1490, -0.7323, -1.1762]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007613247049866769
+pre_time_step:
+[0, 131, 263, 394, 525, 657, 788, 919, 1051, 1182]
+mormal
+ loss0 0.000042, max_f_prime 9.315686, amin 0.000038, amax 1.074495, a_loss 0.000000
+max_f_prime 9.322535, amax0.966981,
+max_f_prime 9.322535, dt 0.000781, time_steps 2561.000000, amax0.966981, M9.322535,
+Parameter containing:
+tensor([[-0.9323, -0.6974, -0.2173,  0.1451,  0.3658,  0.4422,  0.3938,  0.2705,
+          0.1325,  0.0707,  0.0559]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-9.7453e-03, -2.1782e-04,  1.4706e-03, -4.5551e-03,  1.1597e-01,
+         -3.5992e-01, -1.6267e+00,  7.1363e-01,  2.0931e+00, -5.3842e-01,
+         -9.9010e-01]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007809449433814916
+pre_time_step:
+[0, 128, 256, 384, 512, 640, 768, 896, 1024, 1152]
+mormal
+ loss0 0.000028, max_f_prime 9.322536, amin 0.000003, amax 1.046568, a_loss 0.000000
+
+At iterate   53    f=  2.80255D-05    |proj g|=  5.49839D-05
+max_f_prime 9.331310, amax0.976464,
+max_f_prime 9.331310, dt 0.000775, time_steps 2582.000000, amax0.976464, M9.331310,
+Parameter containing:
+tensor([[-0.9331, -0.7053, -0.2180,  0.1481,  0.3748,  0.4473,  0.3916,  0.2648,
+          0.1321,  0.0703,  0.0569]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.7732e-02, -1.3398e-03,  1.0661e-04, -6.1480e-03,  3.8398e-02,
+         -2.9992e-01, -1.6772e+00,  7.5291e-01,  2.1095e+00, -6.0795e-01,
+         -1.0559e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000774593338497289
+pre_time_step:
+[0, 129, 258, 387, 516, 646, 775, 904, 1033, 1162]
+mormal
+ loss0 0.000027, max_f_prime 9.331310, amin 0.000001, amax 1.054726, a_loss 0.000000
+
+At iterate   54    f=  2.74844D-05    |proj g|=  1.69995D-04
+max_f_prime 9.329460, amax0.977675,
+max_f_prime 9.329460, dt 0.000774, time_steps 2584.000000, amax0.977675, M9.329460,
+Parameter containing:
+tensor([[-0.9329, -0.7050, -0.2200,  0.1487,  0.3776,  0.4509,  0.3902,  0.2608,
+          0.1317,  0.0693,  0.0582]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.8926e-02,  1.3282e-03,  1.9795e-03, -7.9176e-03,  1.4001e-02,
+         -2.7853e-01, -1.6910e+00,  7.6464e-01,  2.1107e+00, -6.3049e-01,
+         -1.0761e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007739938080495357
+pre_time_step:
+[0, 129, 258, 388, 517, 646, 775, 904, 1034, 1163]
+mormal
+ loss0 0.000027, max_f_prime 9.329459, amin 0.000000, amax 1.055330, a_loss 0.000000
+
+At iterate   55    f=  2.68943D-05    |proj g|=  6.22447D-05
+max_f_prime 9.326777, amax0.971641,
+max_f_prime 9.326777, dt 0.000778, time_steps 2571.000000, amax0.971641, M9.326777,
+Parameter containing:
+tensor([[-0.9327, -0.6983, -0.2225,  0.1473,  0.3746,  0.4518,  0.3912,  0.2592,
+          0.1313,  0.0685,  0.0590]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.6316e-02,  1.3431e-03,  9.6794e-04, -6.2265e-03,  4.1973e-02,
+         -2.8100e-01, -1.6690e+00,  7.5401e-01,  2.0984e+00, -6.1431e-01,
+         -1.0586e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007779074290159471
+pre_time_step:
+[0, 129, 257, 386, 514, 643, 771, 900, 1028, 1157]
+mormal
+ loss0 0.000026, max_f_prime 9.326777, amin 0.000009, amax 1.049203, a_loss 0.000000
+
+At iterate   56    f=  2.58734D-05    |proj g|=  1.86670D-04
+max_f_prime 9.331591, amax0.964475,
+max_f_prime 9.331591, dt 0.000782, time_steps 2556.000000, amax0.964475, M9.331591,
+Parameter containing:
+tensor([[-0.9332, -0.6929, -0.2248,  0.1472,  0.3742,  0.4492,  0.3913,  0.2598,
+          0.1316,  0.0681,  0.0589]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.4807e-02,  3.7056e-04, -4.0381e-04, -4.4653e-03,  3.8006e-02,
+         -2.8748e-01, -1.6610e+00,  7.4673e-01,  2.0832e+00, -6.0804e-01,
+         -1.0489e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000782472613458529
+pre_time_step:
+[0, 128, 256, 383, 511, 639, 767, 895, 1022, 1150]
+mormal
+ loss0 0.000025, max_f_prime 9.331592, amin 0.000001, amax 1.041576, a_loss 0.000000
+
+At iterate   57    f=  2.48402D-05    |proj g|=  1.59846D-04
+max_f_prime 9.345749, amax0.961100,
+max_f_prime 9.345749, dt 0.000784, time_steps 2550.000000, amax0.961100, M9.345749,
+Parameter containing:
+tensor([[-0.9346, -0.6868, -0.2272,  0.1472,  0.3738,  0.4480,  0.3904,  0.2613,
+          0.1312,  0.0671,  0.0590]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.3119e-02, -5.0810e-04, -1.3222e-03, -2.2275e-03,  3.3947e-02,
+         -2.9162e-01, -1.6607e+00,  7.4424e-01,  2.0758e+00, -6.0706e-01,
+         -1.0460e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000784313725490196
+pre_time_step:
+[0, 128, 255, 383, 510, 638, 765, 893, 1020, 1148]
+mormal
+ loss0 0.000024, max_f_prime 9.345749, amin 0.000209, amax 1.037924, a_loss 0.000000
+
+At iterate   58    f=  2.42301D-05    |proj g|=  4.89445D-05
+max_f_prime 9.356991, amax0.962571,
+max_f_prime 9.356991, dt 0.000783, time_steps 2554.000000, amax0.962571, M9.356991,
+Parameter containing:
+tensor([[-0.9357, -0.6825, -0.2286,  0.1474,  0.3747,  0.4498,  0.3877,  0.2610,
+          0.1303,  0.0663,  0.0590]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.2879e-02, -5.7562e-04, -2.4377e-03,  4.4753e-04,  2.1958e-02,
+         -2.7233e-01, -1.6719e+00,  7.5451e-01,  2.0778e+00, -6.2571e-01,
+         -1.0631e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007830853563038371
+pre_time_step:
+[0, 128, 255, 383, 511, 638, 766, 894, 1022, 1149]
+mormal
+ loss0 0.000024, max_f_prime 9.356991, amin 0.000007, amax 1.038917, a_loss 0.000000
+
+At iterate   59    f=  2.36223D-05    |proj g|=  3.70643D-05
+max_f_prime 9.378644, amax0.966786,
+max_f_prime 9.378644, dt 0.000780, time_steps 2564.000000, amax0.966786, M9.378644,
+Parameter containing:
+tensor([[-0.9379, -0.6763, -0.2299,  0.1469,  0.3748,  0.4531,  0.3844,  0.2627,
+          0.1283,  0.0650,  0.0582]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.2403e-02, -1.7991e-04, -4.3868e-03,  5.5930e-03,  1.5443e-02,
+         -2.3657e-01, -1.6878e+00,  7.7224e-01,  2.0851e+00, -6.5536e-01,
+         -1.0914e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.00078003120124805
+pre_time_step:
+[0, 128, 256, 385, 513, 641, 769, 897, 1026, 1154]
+mormal
+ loss0 0.000023, max_f_prime 9.378644, amin 0.000052, amax 1.042525, a_loss 0.000000
+
+At iterate   60    f=  2.31566D-05    |proj g|=  1.27246D-04
+max_f_prime 9.377103, amax0.968668,
+max_f_prime 9.377103, dt 0.000779, time_steps 2568.000000, amax0.968668, M9.377103,
+Parameter containing:
+tensor([[-0.9377, -0.6768, -0.2286,  0.1462,  0.3742,  0.4550,  0.3840,  0.2628,
+          0.1279,  0.0650,  0.0576]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.3167e-02,  6.4802e-04, -4.5526e-03,  6.5759e-03,  1.6522e-02,
+         -2.1732e-01, -1.6915e+00,  7.7987e-01,  2.0883e+00, -6.6779e-01,
+         -1.1033e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000778816199376947
+pre_time_step:
+[0, 128, 257, 385, 514, 642, 770, 899, 1027, 1156]
+mormal
+ loss0 0.000023, max_f_prime 9.377103, amin 0.000001, amax 1.044155, a_loss 0.000000
+
+At iterate   61    f=  2.30569D-05    |proj g|=  8.01409D-05
+max_f_prime 9.373279, amax0.969330,
+max_f_prime 9.373279, dt 0.000779, time_steps 2569.000000, amax0.969330, M9.373279,
+Parameter containing:
+tensor([[-0.9373, -0.6773, -0.2270,  0.1454,  0.3734,  0.4556,  0.3847,  0.2626,
+          0.1274,  0.0653,  0.0568]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0134,  0.0022, -0.0040,  0.0071,  0.0175, -0.1994, -1.6947,  0.7863,
+          2.0890, -0.6795, -1.1139]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007785130400934215
+pre_time_step:
+[0, 128, 257, 385, 514, 642, 771, 899, 1028, 1156]
+mormal
+ loss0 0.000023, max_f_prime 9.373279, amin 0.000025, amax 1.044483, a_loss 0.000000
+
+At iterate   62    f=  2.29525D-05    |proj g|=  1.79600D-05
+max_f_prime 9.371754, amax0.967562,
+max_f_prime 9.371754, dt 0.000780, time_steps 2565.000000, amax0.967562, M9.371754,
+Parameter containing:
+tensor([[-0.9372, -0.6769, -0.2266,  0.1453,  0.3729,  0.4553,  0.3850,  0.2629,
+          0.1273,  0.0652,  0.0562]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0128,  0.0030, -0.0032,  0.0068,  0.0141, -0.1989, -1.6957,  0.7860,
+          2.0850, -0.6814, -1.1144]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007797270955165692
+pre_time_step:
+[0, 128, 256, 385, 513, 641, 770, 898, 1026, 1154]
+mormal
+ loss0 0.000023, max_f_prime 9.371754, amin 0.000012, amax 1.042503, a_loss 0.000000
+
+At iterate   63    f=  2.28689D-05    |proj g|=  3.10746D-05
+max_f_prime 9.372048, amax0.965432,
+max_f_prime 9.372048, dt 0.000781, time_steps 2560.000000, amax0.965432, M9.372048,
+Parameter containing:
+tensor([[-0.9372, -0.6755, -0.2266,  0.1450,  0.3726,  0.4539,  0.3854,  0.2634,
+          0.1272,  0.0650,  0.0560]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.0911e-02,  4.1845e-03, -1.6041e-03,  6.2585e-03,  1.2999e-02,
+         -2.0229e-01, -1.6976e+00,  7.8457e-01,  2.0804e+00, -6.8156e-01,
+         -1.1133e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.00078125
+pre_time_step:
+[0, 128, 256, 384, 512, 640, 768, 896, 1024, 1152]
+mormal
+ loss0 0.000023, max_f_prime 9.372048, amin 0.000006, amax 1.040190, a_loss 0.000000
+
+At iterate   64    f=  2.28398D-05    |proj g|=  4.53482D-05
+max_f_prime 9.373342, amax0.961397,
+max_f_prime 9.373342, dt 0.000784, time_steps 2552.000000, amax0.961397, M9.373342,
+Parameter containing:
+tensor([[-0.9373, -0.6736, -0.2267,  0.1450,  0.3723,  0.4531,  0.3850,  0.2634,
+          0.1273,  0.0649,  0.0561]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-7.7711e-03,  5.4618e-03,  8.0692e-04,  5.1526e-03,  1.1931e-02,
+         -2.0837e-01, -1.7009e+00,  7.8191e-01,  2.0716e+00, -6.8213e-01,
+         -1.1114e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007836990595611285
+pre_time_step:
+[0, 128, 255, 383, 510, 638, 766, 893, 1021, 1148]
+mormal
+ loss0 0.000023, max_f_prime 9.373343, amin 0.000081, amax 1.035802, a_loss 0.000000
+
+At iterate   65    f=  2.27495D-05    |proj g|=  4.02683D-05
+max_f_prime 9.377351, amax0.958854,
+max_f_prime 9.377351, dt 0.000785, time_steps 2547.000000, amax0.958854, M9.377351,
+Parameter containing:
+tensor([[-0.9377, -0.6726, -0.2276,  0.1454,  0.3729,  0.4538,  0.3838,  0.2630,
+          0.1274,  0.0647,  0.0564]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0052,  0.0062,  0.0021,  0.0048,  0.0104, -0.2032, -1.7103,  0.7851,
+          2.0654, -0.6926, -1.1191]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007852375343541421
+pre_time_step:
+[0, 127, 255, 382, 509, 637, 764, 891, 1019, 1146]
+mormal
+ loss0 0.000023, max_f_prime 9.377352, amin 0.000030, amax 1.032721, a_loss 0.000000
+
+At iterate   66    f=  2.25537D-05    |proj g|=  3.02269D-05
+max_f_prime 9.394430, amax0.935598,
+max_f_prime 9.394430, dt 0.000801, time_steps 2498.000000, amax0.935598, M9.394430,
+Parameter containing:
+tensor([[-0.9394, -0.6704, -0.2330,  0.1476,  0.3763,  0.4619,  0.3764,  0.2588,
+          0.1279,  0.0636,  0.0598]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 1.5278e-02,  1.1396e-02,  1.3908e-02,  4.8473e-04,  1.4899e-02,
+         -1.5223e-01, -1.7803e+00,  8.0974e-01,  2.0096e+00, -7.7830e-01,
+         -1.1806e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008006405124099279
+pre_time_step:
+[0, 125, 250, 375, 500, 624, 749, 874, 999, 1124]
+mormal
+ loss0 0.000022, max_f_prime 9.394429, amin 0.000242, amax 1.004824, a_loss 0.000000
+
+At iterate   67    f=  2.16613D-05    |proj g|=  2.94439D-04
+max_f_prime 9.388378, amax0.928754,
+max_f_prime 9.388378, dt 0.000805, time_steps 2483.000000, amax0.928754, M9.388378,
+Parameter containing:
+tensor([[-0.9388, -0.6746, -0.2330,  0.1490,  0.3775,  0.4646,  0.3745,  0.2578,
+          0.1278,  0.0641,  0.0606]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0201,  0.0115,  0.0180, -0.0026,  0.0082, -0.1324, -1.8097,  0.8212,
+          1.9927, -0.8129, -1.2068]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008054772452678212
+pre_time_step:
+[0, 124, 248, 372, 497, 621, 745, 869, 993, 1117]
+mormal
+ loss0 0.000021, max_f_prime 9.388378, amin 0.000008, amax 0.996338, a_loss 0.000000
+
+At iterate   68    f=  2.13612D-05    |proj g|=  2.59222D-04
+max_f_prime 9.372529, amax0.912587,
+max_f_prime 9.372529, dt 0.000817, time_steps 2448.000000, amax0.912587, M9.372529,
+Parameter containing:
+tensor([[-0.9373, -0.6786, -0.2312,  0.1487,  0.3774,  0.4689,  0.3723,  0.2580,
+          0.1266,  0.0641,  0.0605]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0272,  0.0085,  0.0215, -0.0034,  0.0021, -0.0918, -1.8523,  0.8390,
+          1.9538, -0.8718, -1.2487]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008169934640522876
+pre_time_step:
+[0, 122, 245, 367, 490, 612, 734, 857, 979, 1102]
+mormal
+ loss0 0.000021, max_f_prime 9.372529, amin 0.000027, amax 0.976905, a_loss 0.000000
+
+At iterate   69    f=  2.07815D-05    |proj g|=  4.90697D-05
+max_f_prime 9.350663, amax0.908219,
+max_f_prime 9.350663, dt 0.000821, time_steps 2437.000000, amax0.908219, M9.350663,
+Parameter containing:
+tensor([[-0.9351, -0.6808, -0.2307,  0.1477,  0.3772,  0.4725,  0.3696,  0.2588,
+          0.1262,  0.0625,  0.0614]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 4.2774e-02,  1.6081e-03,  2.7525e-02, -5.1719e-03, -2.0181e-02,
+         -4.1172e-02, -1.9234e+00,  8.5759e-01,  1.8585e+00, -9.6695e-01,
+         -1.3074e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008206811653672548
+pre_time_step:
+[0, 122, 244, 366, 487, 609, 731, 853, 975, 1097]
+mormal
+ loss0 0.000021, max_f_prime 9.350663, amin 0.000134, amax 0.961699, a_loss 0.000000
+
+At iterate   70    f=  2.05150D-05    |proj g|=  2.52380D-04
+max_f_prime 9.326815, amax0.926449,
+max_f_prime 9.326815, dt 0.000808, time_steps 2475.000000, amax0.926449, M9.326815,
+Parameter containing:
+tensor([[-0.9327, -0.6771, -0.2309,  0.1463,  0.3707,  0.4725,  0.3687,  0.2617,
+          0.1272,  0.0612,  0.0617]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.2167e-02, -7.8838e-03,  3.1457e-02, -5.8385e-03, -1.0002e-03,
+         -5.1730e-02, -1.9608e+00,  8.4434e-01,  1.7533e+00, -1.0048e+00,
+         -1.3126e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008080808080808081
+pre_time_step:
+[0, 124, 248, 371, 495, 619, 743, 866, 990, 1114]
+mormal
+ loss0 0.000020, max_f_prime 9.326816, amin 0.000008, amax 0.980394, a_loss 0.000000
+max_f_prime 9.338135, amax0.917795,
+max_f_prime 9.338135, dt 0.000814, time_steps 2457.000000, amax0.917795, M9.338135,
+Parameter containing:
+tensor([[-0.9338, -0.6788, -0.2308,  0.1470,  0.3738,  0.4725,  0.3691,  0.2604,
+          0.1267,  0.0618,  0.0616]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0530, -0.0034,  0.0296, -0.0055, -0.0101, -0.0467, -1.9430,  0.8506,
+          1.8032, -0.9868, -1.3101]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.000814000814000814
+pre_time_step:
+[0, 123, 246, 369, 491, 614, 737, 860, 983, 1106]
+mormal
+ loss0 0.000020, max_f_prime 9.338136, amin 0.000041, amax 0.971520, a_loss 0.000000
+
+At iterate   71    f=  1.99179D-05    |proj g|=  3.67204D-04
+max_f_prime 9.344593, amax0.923130,
+max_f_prime 9.344593, dt 0.000810, time_steps 2469.000000, amax0.923130, M9.344593,
+Parameter containing:
+tensor([[-0.9345, -0.6742, -0.2313,  0.1464,  0.3733,  0.4699,  0.3697,  0.2610,
+          0.1271,  0.0612,  0.0607]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0587, -0.0072,  0.0292, -0.0040, -0.0153, -0.0531, -1.9539,  0.8442,
+          1.7627, -0.9983, -1.3093]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008100445524503848
+pre_time_step:
+[0, 123, 247, 370, 494, 617, 741, 864, 988, 1111]
+mormal
+ loss0 0.000019, max_f_prime 9.344593, amin 0.000052, amax 0.976938, a_loss 0.000000
+
+At iterate   72    f=  1.89344D-05    |proj g|=  2.76088D-04
+max_f_prime 9.365412, amax0.934091,
+max_f_prime 9.365412, dt 0.000802, time_steps 2493.000000, amax0.934091, M9.365412,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4170e-02, -1.3691e-02,  2.6281e-02, -7.5263e-04, -2.2263e-02,
+         -5.5273e-02, -1.9766e+00,  8.4286e-01,  1.7219e+00, -1.0206e+00,
+         -1.3180e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365412, amin 0.000033, amax 0.988311, a_loss 0.000000
+
+At iterate   73    f=  1.80245D-05    |proj g|=  3.39932D-05
+max_f_prime 9.364532, amax0.940970,
+max_f_prime 9.364532, dt 0.000797, time_steps 2508.000000, amax0.940970, M9.364532,
+Parameter containing:
+tensor([[-0.9365, -0.6712, -0.2305,  0.1467,  0.3733,  0.4688,  0.3690,  0.2593,
+          0.1279,  0.0608,  0.0619]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4223e-02, -1.7458e-02,  2.4457e-02, -2.2226e-04, -2.3238e-02,
+         -4.7529e-02, -1.9912e+00,  8.4840e-01,  1.7146e+00, -1.0364e+00,
+         -1.3300e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007974481658692185
+pre_time_step:
+[0, 125, 251, 376, 502, 627, 752, 878, 1003, 1129]
+mormal
+ loss0 0.000018, max_f_prime 9.364532, amin 0.000111, amax 0.995577, a_loss 0.000000
+max_f_prime 9.365216, amax0.935623,
+max_f_prime 9.365216, dt 0.000801, time_steps 2496.000000, amax0.935623, M9.365216,
+Parameter containing:
+tensor([[-0.9365, -0.6694, -0.2314,  0.1465,  0.3731,  0.4683,  0.3697,  0.2598,
+          0.1276,  0.0605,  0.0612]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4182e-02, -1.4531e-02,  2.5875e-02, -6.3446e-04, -2.2481e-02,
+         -5.3548e-02, -1.9799e+00,  8.4409e-01,  1.7203e+00, -1.0241e+00,
+         -1.3206e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008012820512820513
+pre_time_step:
+[0, 125, 250, 374, 499, 624, 749, 874, 998, 1123]
+mormal
+ loss0 0.000018, max_f_prime 9.365216, amin 0.000014, amax 0.989930, a_loss 0.000000
+max_f_prime 9.365396, amax0.934220,
+max_f_prime 9.365396, dt 0.000802, time_steps 2493.000000, amax0.934220, M9.365396,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3762e-02,  2.6247e-02, -7.4267e-04, -2.2282e-02,
+         -5.5128e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988448, a_loss 0.000000
+max_f_prime 9.365277, amax0.935146,
+max_f_prime 9.365277, dt 0.000802, time_steps 2495.000000, amax0.935146, M9.365277,
+Parameter containing:
+tensor([[-0.9365, -0.6692, -0.2315,  0.1465,  0.3731,  0.4682,  0.3697,  0.2599,
+          0.1276,  0.0605,  0.0611]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4178e-02, -1.4269e-02,  2.6001e-02, -6.7125e-04, -2.2413e-02,
+         -5.4085e-02, -1.9789e+00,  8.4371e-01,  1.7208e+00, -1.0230e+00,
+         -1.3198e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008016032064128256
+pre_time_step:
+[0, 125, 250, 374, 499, 624, 749, 873, 998, 1123]
+mormal
+ loss0 0.000018, max_f_prime 9.365277, amin 0.000002, amax 0.989426, a_loss 0.000000
+max_f_prime 9.365388, amax0.934277,
+max_f_prime 9.365388, dt 0.000802, time_steps 2494.000000, amax0.934277, M9.365388,
+Parameter containing:
+tensor([[-0.9365, -0.6690, -0.2317,  0.1465,  0.3731,  0.4682,  0.3698,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3794e-02,  2.6232e-02, -7.3824e-04, -2.2290e-02,
+         -5.5063e-02, -1.9770e+00,  8.4301e-01,  1.7217e+00, -1.0210e+00,
+         -1.3183e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008019246190858059
+pre_time_step:
+[0, 125, 249, 374, 499, 624, 748, 873, 998, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365388, amin 0.000032, amax 0.988509, a_loss 0.000000
+max_f_prime 9.365396, amax0.934220,
+max_f_prime 9.365396, dt 0.000802, time_steps 2493.000000, amax0.934220, M9.365396,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3762e-02,  2.6247e-02, -7.4263e-04, -2.2282e-02,
+         -5.5127e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988448, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6247e-02, -7.4253e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365392, amax0.934249,
+max_f_prime 9.365392, dt 0.000802, time_steps 2494.000000, amax0.934249, M9.365392,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3731,  0.4681,  0.3698,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3778e-02,  2.6239e-02, -7.4038e-04, -2.2286e-02,
+         -5.5094e-02, -1.9770e+00,  8.4298e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008019246190858059
+pre_time_step:
+[0, 125, 249, 374, 499, 624, 748, 873, 998, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365392, amin 0.000033, amax 0.988479, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6247e-02, -7.4252e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6247e-02, -7.4253e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+
+At iterate   74    f=  1.80227D-05    |proj g|=  3.40434D-05
+max_f_prime 9.352651, amax0.965577,
+max_f_prime 9.352651, dt 0.000781, time_steps 2560.000000, amax0.965577, M9.352651,
+Parameter containing:
+tensor([[-0.9353, -0.6885, -0.2218,  0.1477,  0.3746,  0.4702,  0.3649,  0.2573,
+          0.1298,  0.0640,  0.0665]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 0.0536, -0.0441,  0.0061,  0.0041, -0.0207, -0.0347, -2.0431,  0.8668,
+          1.6970, -1.0838, -1.3670]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.00078125
+pre_time_step:
+[0, 128, 256, 384, 512, 640, 768, 896, 1024, 1152]
+mormal
+ loss0 0.000020, max_f_prime 9.352651, amin 0.000062, amax 1.021536, a_loss 0.000000
+max_f_prime 9.363875, amax0.937961,
+max_f_prime 9.363875, dt 0.000800, time_steps 2501.000000, amax0.937961, M9.363875,
+Parameter containing:
+tensor([[-0.9364, -0.6713, -0.2305,  0.1466,  0.3732,  0.4684,  0.3693,  0.2597,
+          0.1278,  0.0608,  0.0617]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.2907e-02, -1.7376e-02,  2.3844e-02, -1.6597e-04, -2.2089e-02,
+         -5.2692e-02, -1.9848e+00,  8.4580e-01,  1.7188e+00, -1.0284e+00,
+         -1.3240e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007996801279488205
+pre_time_step:
+[0, 125, 250, 375, 500, 625, 750, 875, 1000, 1125]
+mormal
+ loss0 0.000018, max_f_prime 9.363875, amin 0.000071, amax 0.992396, a_loss 0.000000
+max_f_prime 9.365128, amax0.934881,
+max_f_prime 9.365128, dt 0.000802, time_steps 2495.000000, amax0.934881, M9.365128,
+Parameter containing:
+tensor([[-0.9365, -0.6693, -0.2315,  0.1465,  0.3731,  0.4682,  0.3697,  0.2599,
+          0.1276,  0.0605,  0.0611]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.3948e-02, -1.4400e-02,  2.5823e-02, -6.4093e-04, -2.2248e-02,
+         -5.4697e-02, -1.9783e+00,  8.4346e-01,  1.7213e+00, -1.0222e+00,
+         -1.3192e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008016032064128256
+pre_time_step:
+[0, 125, 250, 374, 499, 624, 749, 873, 998, 1123]
+mormal
+ loss0 0.000018, max_f_prime 9.365128, amin 0.000010, amax 0.989145, a_loss 0.000000
+max_f_prime 9.365385, amax0.934247,
+max_f_prime 9.365385, dt 0.000802, time_steps 2494.000000, amax0.934247, M9.365385,
+Parameter containing:
+tensor([[-0.9365, -0.6690, -0.2317,  0.1465,  0.3731,  0.4681,  0.3698,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4162e-02, -1.3788e-02,  2.6230e-02, -7.3856e-04, -2.2281e-02,
+         -5.5109e-02, -1.9770e+00,  8.4298e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008019246190858059
+pre_time_step:
+[0, 125, 249, 374, 499, 624, 748, 873, 998, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365385, amin 0.000032, amax 0.988477, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4250e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4250e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+
+At iterate   75    f=  1.80227D-05    |proj g|=  3.40434D-05
+max_f_prime 9.257444, amax1.324473,
+max_f_prime 9.257444, dt 0.000602, time_steps 3320.000000, amax1.324473, M9.257444,
+Parameter containing:
+tensor([[-0.9257, -0.8938, -0.1244,  0.1556,  0.3922,  0.5022,  0.3238,  0.2445,
+          0.1420,  0.1059,  0.1070]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.0463, -0.3624, -0.2019,  0.0593, -0.0162,  0.2141, -2.8005,  1.1407,
+          1.4069, -1.8127, -1.9324]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0006024096385542169
+pre_time_step:
+[0, 166, 332, 498, 664, 830, 996, 1162, 1328, 1494]
+mormal
+ loss0 0.000979, max_f_prime 9.257443, amin 0.000280, amax 1.400267, a_loss 0.000000
+max_f_prime 9.363916, amax0.939571,
+max_f_prime 9.363916, dt 0.000798, time_steps 2505.000000, amax0.939571, M9.363916,
+Parameter containing:
+tensor([[-0.9364, -0.6720, -0.2302,  0.1466,  0.3733,  0.4686,  0.3692,  0.2598,
+          0.1278,  0.0610,  0.0616]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.2657e-02, -1.8542e-02,  2.3119e-02,  8.1026e-05, -2.2199e-02,
+         -5.1435e-02, -1.9882e+00,  8.4704e-01,  1.7175e+00, -1.0317e+00,
+         -1.3266e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0007984031936127744
+pre_time_step:
+[0, 125, 251, 376, 501, 626, 752, 877, 1002, 1127]
+mormal
+ loss0 0.000018, max_f_prime 9.363915, amin 0.000041, amax 0.994095, a_loss 0.000000
+max_f_prime 9.365129, amax0.935186,
+max_f_prime 9.365129, dt 0.000801, time_steps 2496.000000, amax0.935186, M9.365129,
+Parameter containing:
+tensor([[-0.9365, -0.6695, -0.2314,  0.1465,  0.3731,  0.4682,  0.3697,  0.2599,
+          0.1276,  0.0605,  0.0611]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.3898e-02, -1.4624e-02,  2.5683e-02, -5.9413e-04, -2.2267e-02,
+         -5.4461e-02, -1.9789e+00,  8.4370e-01,  1.7210e+00, -1.0228e+00,
+         -1.3197e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008012820512820513
+pre_time_step:
+[0, 125, 250, 374, 499, 624, 749, 874, 998, 1123]
+mormal
+ loss0 0.000018, max_f_prime 9.365129, amin 0.000031, amax 0.989467, a_loss 0.000000
+max_f_prime 9.365383, amax0.934266,
+max_f_prime 9.365383, dt 0.000802, time_steps 2494.000000, amax0.934266, M9.365383,
+Parameter containing:
+tensor([[-0.9365, -0.6690, -0.2317,  0.1465,  0.3731,  0.4681,  0.3698,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4158e-02, -1.3803e-02,  2.6221e-02, -7.3571e-04, -2.2281e-02,
+         -5.5095e-02, -1.9770e+00,  8.4300e-01,  1.7218e+00, -1.0210e+00,
+         -1.3183e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008019246190858059
+pre_time_step:
+[0, 125, 249, 374, 499, 624, 748, 873, 998, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365383, amin 0.000031, amax 0.988496, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2494.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3764e-02,  2.6246e-02, -7.4244e-04, -2.2282e-02,
+         -5.5125e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008019246190858059
+pre_time_step:
+[0, 125, 249, 374, 499, 624, 748, 873, 998, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+max_f_prime 9.365395, amax0.934222,
+max_f_prime 9.365395, dt 0.000802, time_steps 2493.000000, amax0.934222, M9.365395,
+Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+obs_time_step:
+[0, 65, 129, 194, 259, 323, 388, 452, 517, 582]
+dt
+0.0008022462896109105
+pre_time_step:
+[0, 125, 249, 374, 499, 623, 748, 873, 997, 1122]
+mormal
+ loss0 0.000018, max_f_prime 9.365396, amin 0.000034, amax 0.988450, a_loss 0.000000
+
+At iterate   76    f=  1.80227D-05    |proj g|=  3.40434D-05
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+   22     76    143      1     0     0   3.404D-05   1.802D-05
+  F =  1.802272527129389E-005
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+poly0.molecular_1.weight : Parameter containing:
+tensor([[-0.9365, -0.6689, -0.2317,  0.1465,  0.3730,  0.4681,  0.3699,  0.2600,
+          0.1276,  0.0604,  0.0610]], dtype=torch.float64, requires_grad=True)
+diff0.molecular_2.weight : Parameter containing:
+tensor([[ 6.4171e-02, -1.3763e-02,  2.6246e-02, -7.4251e-04, -2.2282e-02,
+         -5.5126e-02, -1.9769e+00,  8.4296e-01,  1.7218e+00, -1.0209e+00,
+         -1.3182e+00]], dtype=torch.float64, requires_grad=True)
+
+ Warning:  more than 10 function and gradient
+   evaluations in the last line search.  Termination
+   may possibly be caused by a bad search direction.
+Traceback (most recent call last):
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param_K_u\Experiments_Paper_3\beta_300_case_1_N_200_diehl_f_a_abs_0.5_n_10\learn_function_1d.py", line 115, in <module>
+    printcoeffs()
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param_K_u\Experiments_Paper_3\beta_300_case_1_N_200_diehl_f_a_abs_0.5_n_10\learn_function_1d.py", line 100, in printcoeffs
+    tsym_0, csym_0, tsym_1, csym_1 = poly.coeffs()
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param_K_u\Experiments_Paper_3\beta_300_case_1_N_200_diehl_f_a_abs_0.5_n_10\expr_f.py", line 140, in coeffs
+    o_molecular, o_denominator = self.expression(calprec, eng=None, isexpand=True)
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param_K_u\Experiments_Paper_3\beta_300_case_1_N_200_diehl_f_a_abs_0.5_n_10\expr_f.py", line 90, in expression
+    weight, bias = self._cast2symbol(self.layer[k])
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param_K_u\Experiments_Paper_3\beta_300_case_1_N_200_diehl_f_a_abs_0.5_n_10\expr_f.py", line 66, in _cast2symbol
+    weight,bias = self._cast2numpy(layer)
+  File "C:\Users\janga\Cold_Qing\ConsLawNet1\learn_multiplication_function_update_numerical_scheme_with_param_K_u\Experiments_Paper_3\beta_300_case_1_N_200_diehl_f_a_abs_0.5_n_10\expr_f.py", line 55, in _cast2numpy
+    layer.bias.data.cpu().numpy()
+AttributeError: 'NoneType' object has no attribute 'data'
+
+Process finished with exit code 1

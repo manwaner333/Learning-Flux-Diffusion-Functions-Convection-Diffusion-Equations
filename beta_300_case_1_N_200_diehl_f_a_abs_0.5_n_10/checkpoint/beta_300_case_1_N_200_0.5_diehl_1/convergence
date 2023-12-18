@@ -1,0 +1,20 @@
+
+
+current stage is: layer-10
+iter:     0    time: 43.82
+Func: 8.63e-03  |g|: 1.37e-02
+iter:    10    time: 465.15
+Func: 4.74e-04  |g|: 1.48e-03
+iter:    20    time: 542.70
+Func: 1.06e-04  |g|: 6.92e-04
+iter:    30    time: 944.98
+Func: 4.93e-05  |g|: 2.03e-04
+iter:    40    time: 1185.00
+Func: 3.03e-05  |g|: 1.61e-04
+iter:    50    time: 3978.84
+Func: 2.89e-05  |g|: 1.27e-04
+iter:    60    time: 1531.49
+Func: 2.31e-05  |g|: 9.61e-05
+iter:    70    time: 1393.43
+Func: 1.99e-05  |g|: 4.06e-04
+current expression:

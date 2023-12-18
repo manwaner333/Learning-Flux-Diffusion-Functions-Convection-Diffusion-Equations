@@ -1,0 +1,28 @@
+# 真实值 example_6_hidden_layer_6_no_abs
+max_f_prime 4.231986, amax0.500000,
+max_f_prime 4.231986, dt 0.001547, time_steps 1293.000000, amax0.500000, M4.231986,
+U
+torch.Size([1294, 6, 200])
+u_0
+torch.Size([6, 200])
+u_fixed
+torch.Size([1, 52])
+
+# 预测值
+%max_f_prime 4.307693, amax0.585352,
+%max_f_prime 4.307693, dt 0.001351, time_steps 1480.000000, amax0.585352, M4.307693,
+%U
+%torch.Size([1481, 6, 200])
+%u_0
+%torch.Size([6, 200])
+%u_fixed
+%torch.Size([1, 52])
+
+max_f_prime 4.148063, amax0.599120,
+max_f_prime 4.148063, dt 0.001333, time_steps 1500.000000, amax0.599120, M4.148063,
+U
+torch.Size([1501, 6, 200])
+u_0
+torch.Size([6, 200])
+u_fixed
+torch.Size([1, 52])

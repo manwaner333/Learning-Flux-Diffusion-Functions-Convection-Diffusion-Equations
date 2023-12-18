@@ -1,0 +1,6 @@
+# 真实值N_400_example_6_mul_test_big
+max_f_prime 1.565079, amax0.032026,
+max_f_prime 1.565079, dt 0.004535, time_steps 441.000000, amax0.032026, M1.565079,
+
+
+

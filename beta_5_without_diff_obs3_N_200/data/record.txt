@@ -1,0 +1,2 @@
+max_f_prime 3.919244,
+max_f_prime 3.919244, dt 0.009524, time_steps 210.000000,

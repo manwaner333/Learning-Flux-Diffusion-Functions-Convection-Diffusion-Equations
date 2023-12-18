@@ -1,0 +1,24 @@
+# 真实值N_400_example_6_mul_test_big
+
+max_f_prime 4.231986, amax0.032026,
+max_f_prime 4.231986, dt 0.002755, time_steps 726.000000, amax0.032026, M4.231986,
+U
+torch.Size([727, 6, 400])
+u_0
+torch.Size([6, 400])
+u_fixed
+torch.Size([1, 52])
+
+# 预测
+
+max_f_prime 9.295000, amax0.016980,
+max_f_prime 9.295000, dt 0.001759, time_steps 1137.000000, amax0.016980, M9.295000,
+U
+torch.Size([1138, 6, 400])
+u_0
+torch.Size([6, 400])
+u_fixed
+torch.Size([1, 52])
+
+
+

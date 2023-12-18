@@ -1,0 +1,28 @@
+max_f_prime 3.911181, amax0.640518,
+max_f_prime 3.911181, dt 0.001269, time_steps 1576.000000, amax0.640518, M3.911181,
+U
+torch.Size([1577, 7, 200])
+u_0
+torch.Size([7, 200])
+u_fixed
+torch.Size([1, 52])
+
+
+修改的后的
+max_f_prime 3.917276, amax0.500000,
+max_f_prime 3.917276, dt 0.001566, time_steps 1277.000000, amax0.500000, M3.917276,
+U
+torch.Size([1278, 7, 200])
+u_0
+torch.Size([7, 200])
+u_fixed
+torch.Size([1, 51])
+预测的
+max_f_prime 3.946982, amax0.146492,
+max_f_prime 3.946982, dt 0.003817, time_steps 524.000000, amax0.146492, M3.946982,
+U
+torch.Size([525, 7, 200])
+u_0
+torch.Size([7, 200])
+u_fixed
+torch.Size([1, 52])

@@ -1,0 +1,15 @@
+1. N_400_example_4_mul_test_big
+
+max_f_prime 1.565079, amax0.500000,
+max_f_prime 1.565079, dt 0.000451, time_steps 4435.000000, amax0.500000, M1.565079, 
+U
+torch.Size([4436, 4, 400])
+u_0
+torch.Size([4, 400])
+u_fixed
+torch.Size([1, 52])
+
+
+2. N_400_example_4_mul_test_another_case_big
+max_f_prime 1.565079, amax0.320259,
+max_f_prime 1.565079, dt 0.000689, time_steps 2901.000000, amax0.320259, M1.565079,

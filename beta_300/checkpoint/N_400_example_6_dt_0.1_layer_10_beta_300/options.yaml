@@ -1,0 +1,19 @@
+--N: 400
+--T: 2.0
+--X: 10.0
+--batch_size: 6
+--device: cpu
+--dt: 0.169492
+--dx: 0.025
+--layer: 10
+--maxiter: 100
+--precision: double
+--recordcycle: 10
+--recordfile: convergence
+--savecycle: 10000
+--taskdescriptor: N_400_example_6_dt_0.1_layer_10_beta_300
+--theta: 0.001
+--time_steps: 236
+--xn: '50'
+--yn: '50'
+

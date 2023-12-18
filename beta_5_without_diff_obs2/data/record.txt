@@ -1,0 +1,7 @@
+max_f_prime 3.919244, dt 0.004773, time_steps 419.000000,
+U
+torch.Size([419, 5, 400])
+u_0
+torch.Size([5, 400])
+u_fixed
+torch.Size([1, 501])

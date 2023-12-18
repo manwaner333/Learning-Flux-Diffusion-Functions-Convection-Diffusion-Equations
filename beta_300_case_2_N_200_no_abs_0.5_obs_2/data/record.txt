@@ -1,0 +1,21 @@
+# 真实值 example_6_hidden_layer_6_no_abs
+max_f_prime 4.231986, amax0.320259,
+max_f_prime 4.231986, dt 0.002198, time_steps 910.000000, amax0.320259, M4.231986,
+U
+torch.Size([911, 6, 200])
+u_0
+torch.Size([6, 200])
+u_fixed
+torch.Size([1, 52])
+
+
+# 预测值
+
+max_f_prime 4.221793, amax0.170296,
+max_f_prime 4.221793, dt 0.003396, time_steps 589.000000, amax0.170296, M4.221793,
+U
+torch.Size([590, 6, 200])
+u_0
+torch.Size([6, 200])
+u_fixed
+torch.Size([1, 52])
